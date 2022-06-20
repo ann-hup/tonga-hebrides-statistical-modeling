@@ -1,5 +1,4 @@
-# Statistical Modeling and Analysis of the Tonga Trench and New Hebrides Trench
-## An Earthquake Study
+# Statistical Modeling and Analysis of the Tonga Trench and New Hebrides Trench: An Earthquake Study
 ## Contributors: Annika Huprikar, Beatrice Youd, Alex Paladino
 
 Given that plate tectonics have only been widely accepted and studied for less than a century, there’s still a lot of interest and important knowledge to be had from examining its global geophysical phenomena– especially earthquakes, which can have a devastating impact on human life.  With the historic January 15th, 2022 volcanic eruption in Tonga, we were interested in examining that trench system (and others nearby) to understand better how earthquakes relate to boundary conditions, particularly the influence depth and/or frequency of earthquakes had on magnitudes.  
