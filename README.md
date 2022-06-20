@@ -17,3 +17,4 @@ As the statistical analysis was being conducted, other points of interest arose 
 * Regression Techniques, Deming Regression, MA/SMA Regression
 * Quantifying Uncertainty, Standard Error of Sampling Distributions
 * Visualization: Contour Plots, Histograms, Time Series
+* Massaging Data, Filtering, Algorithms to perform calculations across observations/variables in datasets
