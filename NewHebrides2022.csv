@@ -1,0 +1,281 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2022-04-29T12:00:01.338Z,-15.4224,168.0997,120.91,4.6,mb,,113,6.259,0.43,us,us7000h5u1,2022-04-29T12:20:18.040Z,"101 km E of Luganville, Vanuatu",earthquake,8.7,9.2,0.122,20,reviewed,us,us
+2022-04-28T09:29:17.878Z,-19.9753,169.9052,234.54,4.4,mb,,131,3.484,0.57,us,us7000h5l6,2022-04-28T10:07:37.040Z,"81 km SE of Isangel, Vanuatu",earthquake,12.6,8.3,0.095,32,reviewed,us,us
+2022-04-27T23:09:23.868Z,-19.2902,167.5419,10,5.4,mww,,72,3.307,1.01,us,us7000h5hl,2022-04-28T23:12:37.777Z,"182 km N of Wé, New Caledonia",earthquake,7.6,1.8,0.089,12,reviewed,us,us
+2022-04-27T08:49:17.877Z,-22.8711,170.9858,10,4.9,mb,,134,6.73,1.33,us,us6000hgml,2022-04-27T09:04:30.040Z,southeast of the Loyalty Islands,earthquake,11.8,2,0.112,25,reviewed,us,us
+2022-04-26T00:41:26.104Z,-12.6056,166.7839,86,4.7,mb,,212,7.412,0.35,us,us6000hgd4,2022-04-26T01:37:28.040Z,"163 km NNW of Sola, Vanuatu",earthquake,14.2,10.6,0.143,15,reviewed,us,us
+2022-04-23T11:59:11.702Z,-17.8386,168.264,50.34,4.5,mb,,143,2.586,0.65,us,us6000hfzc,2022-04-24T22:56:12.549Z,"12 km SSW of Port-Vila, Vanuatu",earthquake,8.8,9.8,0.156,13,reviewed,us,us
+2022-04-20T20:05:04.221Z,-15.1839,167.9568,10,4.5,mb,,166,0.772,1.25,us,us6000hf40,2022-04-29T20:05:02.040Z,"93 km ENE of Luganville, Vanuatu",earthquake,5.5,1.9,0.096,32,reviewed,us,us
+2022-04-20T17:58:17.844Z,-22.6918,170.8634,10,4.9,mb,,122,3.157,1.05,us,us6000hf2i,2022-04-29T18:46:35.040Z,southeast of the Loyalty Islands,earthquake,10.8,1.9,0.091,39,reviewed,us,us
+2022-04-20T05:13:07.899Z,-22.9058,170.8329,10,5.9,mww,,42,3.139,1.46,us,us7000h3h9,2022-04-21T05:16:37.927Z,southeast of the Loyalty Islands,earthquake,8.1,1.8,0.039,62,reviewed,us,us
+2022-04-20T04:49:38.725Z,-15.8325,167.5357,74.16,4.8,mb,,85,5.617,0.61,us,us7000h3h6,2022-04-20T22:50:02.040Z,"29 km NNE of Norsup, Vanuatu",earthquake,13.9,8.1,0.111,30,reviewed,us,us
+2022-04-19T00:20:53.574Z,-10.9376,166.0064,47.53,5.3,mww,,54,4.631,0.73,us,us7000h36v,2022-04-30T04:24:43.040Z,"32 km SE of Lata, Solomon Islands",earthquake,3.4,5,0.089,12,reviewed,us,us
+2022-04-18T23:33:34.705Z,-11.267,162.8021,11.5,5.5,mww,,47,3.345,0.73,us,us7000h36n,2022-04-29T05:24:28.095Z,"131 km SE of Kirakira, Solomon Islands",earthquake,5.6,3.6,0.086,13,reviewed,us,us
+2022-04-18T20:58:31.367Z,-11.4056,162.7899,10,4.4,mb,,106,3.411,0.45,us,us6000hfnu,2022-04-22T21:00:47.040Z,"141 km SE of Kirakira, Solomon Islands",earthquake,5.8,1.9,0.155,12,reviewed,us,us
+2022-04-18T20:03:08.505Z,-11.1836,162.8815,10,4.5,mb,,88,3.367,0.76,us,us6000hfnr,2022-04-22T20:48:32.040Z,"132 km SE of Kirakira, Solomon Islands",earthquake,8,1.9,0.151,13,reviewed,us,us
+2022-04-18T19:33:08.706Z,-21.7832,170.6969,98.26,4.6,mb,,120,3.123,0.98,us,us7000h34z,2022-04-22T20:41:48.040Z,"288 km SSE of Isangel, Vanuatu",earthquake,10.1,6.2,0.09,38,reviewed,us,us
+2022-04-17T21:46:42.832Z,-13.7202,167.2563,203.47,4.6,mb,,62,1.717,0.67,us,us7000h2yq,2022-04-25T04:43:07.040Z,"36 km WNW of Sola, Vanuatu",earthquake,8.8,4.9,0.086,41,reviewed,us,us
+2022-04-17T15:49:54.778Z,-22.5908,170.5049,10,4.6,mb,,99,2.826,0.31,us,us6000hfkm,2022-04-24T17:31:40.040Z,"294 km ESE of Tadine, New Caledonia",earthquake,6.7,1.9,0.222,9,reviewed,us,us
+2022-04-17T07:46:36.426Z,-15.6828,167.7723,199.4,5.8,mww,,35,0.596,0.71,us,us7000h2u9,2022-04-18T07:49:51.351Z,"58 km NE of Norsup, Vanuatu",earthquake,8.7,5.3,0.098,10,reviewed,us,us
+2022-04-17T01:20:48.042Z,-11.6561,166.8291,225.12,4.3,mb,,146,3.785,0.45,us,us7000h2sc,2022-04-17T01:39:18.040Z,Santa Cruz Islands,earthquake,15.9,10.8,0.168,13,reviewed,us,us
+2022-04-16T23:44:07.763Z,-16.2315,167.9698,182.53,4.7,mb,,62,1.073,0.6,us,us7000h2rv,2022-04-26T04:04:13.040Z,"60 km ESE of Lakatoro, Vanuatu",earthquake,7.5,6.1,0.089,38,reviewed,us,us
+2022-04-16T23:21:43.597Z,-22.6143,170.5561,10,4.4,mb,,123,2.873,0.65,us,us6000hfc5,2022-04-26T03:53:22.040Z,southeast of the Loyalty Islands,earthquake,3.9,1.9,0.203,7,reviewed,us,us
+2022-04-16T21:57:37.622Z,-22.3964,170.6628,10,5.3,mww,,54,2.982,0.75,us,us7000h2rc,2022-04-26T03:59:40.040Z,southeast of the Loyalty Islands,earthquake,7.8,1.8,0.069,20,reviewed,us,us
+2022-04-15T14:35:50.973Z,-11.0728,166.5273,137.2,4.4,mb,,102,4.397,0.47,us,us6000hfaa,2022-04-22T07:40:45.040Z,"88 km ESE of Lata, Solomon Islands",earthquake,8.4,5.3,0.092,34,reviewed,us,us
+2022-04-15T14:22:43.138Z,-17.5429,168.667,10,5.3,mww,,70,2.513,0.6,us,us7000h2hw,2022-04-29T09:00:53.920Z,"43 km ENE of Port-Vila, Vanuatu",earthquake,7.1,1.8,0.073,18,reviewed,us,us
+2022-04-15T13:59:13.098Z,-17.4936,168.6746,213.71,4.3,mb,,70,2.476,0.64,us,us7000h2hs,2022-04-29T08:46:14.040Z,"46 km NE of Port-Vila, Vanuatu",earthquake,7.8,4.8,0.092,34,reviewed,us,us
+2022-04-14T11:02:50.357Z,-22.5402,170.4737,39.94,4.9,mb,,105,2.798,1.27,us,us7000h25p,2022-04-14T11:21:57.040Z,"289 km ESE of Tadine, New Caledonia",earthquake,8.1,7.7,0.084,45,reviewed,us,us
+2022-04-14T01:28:57.022Z,-19.1374,169.7119,288.01,4.3,mb,,79,4.055,0.32,us,us7000h3kr,2022-04-21T04:01:00.040Z,"63 km NE of Isangel, Vanuatu",earthquake,9.7,9.9,0.137,15,reviewed,us,us
+2022-04-13T21:44:35.689Z,-22.5553,170.258,10,4.7,mb,,109,2.599,0.75,us,us7000h1zr,2022-04-13T22:01:48.040Z,"269 km ESE of Tadine, New Caledonia",earthquake,6.7,1.9,0.183,10,reviewed,us,us
+2022-04-13T20:11:46.933Z,-12.6044,167.1591,226.82,4.4,mb,,56,2.826,0.58,us,us7000h1ye,2022-04-19T18:56:12.040Z,"146 km NNW of Sola, Vanuatu",earthquake,11.6,6.7,0.074,52,reviewed,us,us
+2022-04-13T02:32:00.630Z,-13.7229,166.7418,17,5.4,mww,,28,1.771,0.53,us,us7000h1lp,2022-04-14T21:44:29.318Z,"89 km W of Sola, Vanuatu",earthquake,7.4,1.7,0.071,19,reviewed,us,us
+2022-04-13T00:10:18.806Z,-22.5518,170.1618,10,4.5,mb,,115,2.51,0.41,us,us7000h3cq,2022-04-27T05:18:57.040Z,"260 km ESE of Tadine, New Caledonia",earthquake,4.8,1.9,0.22,6,reviewed,us,us
+2022-04-12T20:53:47.203Z,-10.4573,160.8792,36.11,4.6,mb,,105,1.366,0.51,us,us7000h29t,2022-04-14T16:58:19.040Z,"114 km W of Kirakira, Solomon Islands",earthquake,7.9,7.9,0.132,20,reviewed,us,us
+2022-04-11T12:15:41.162Z,-10.1298,160.5896,38.98,4.9,mb,,60,0.933,0.52,us,us7000h19i,2022-04-29T06:40:50.040Z,"104 km SE of Honiara, Solomon Islands",earthquake,7.9,6.3,0.045,154,reviewed,us,us
+2022-04-11T10:53:41.180Z,-21.0491,168.5786,35.71,4.6,mb,,104,1.878,0.78,us,us7000h280,2022-04-18T12:39:43.040Z,"91 km NE of Tadine, New Caledonia",earthquake,8.4,7,0.157,12,reviewed,us,us
+2022-04-11T01:57:21.634Z,-17.5122,168.1214,10,4,mb,,118,2.234,0.87,us,us7000h27s,2022-04-25T04:35:37.040Z,"32 km NW of Port-Vila, Vanuatu",earthquake,10.4,1.9,0.259,5,reviewed,us,us
+2022-04-10T10:39:27.236Z,-14.3472,167.3212,173.23,4.4,mb,,159,1.099,0.43,us,us7000h251,2022-04-17T07:02:53.040Z,"57 km SSW of Sola, Vanuatu",earthquake,11.7,7.8,0.111,23,reviewed,us,us
+2022-04-10T04:24:06.209Z,-14.9578,167.452,114.24,4.3,mb,,162,0.542,0.37,us,us7000h10r,2022-04-15T00:34:26.040Z,"41 km ENE of Port-Olry, Vanuatu",earthquake,13.8,6.5,0.218,7,reviewed,us,us
+2022-04-10T01:24:44.371Z,-16.3201,167.4974,10,4.6,mb,,161,0.913,1.13,us,us7000h24k,2022-04-14T23:33:02.040Z,"25 km SSE of Lakatoro, Vanuatu",earthquake,10.2,1,0.224,7,reviewed,us,us
+2022-04-09T20:52:37.344Z,-16.3181,166.8507,10,6.3,mww,,33,0.93,0.88,us,us7000h0yj,2022-04-10T20:57:42.406Z,"64 km WSW of Norsup, Vanuatu",earthquake,5.6,1.7,0.038,68,reviewed,us,us
+2022-04-09T19:35:14.119Z,-22.9049,171.537,22.96,5,mww,,64,3.786,0.91,us,us7000h0y5,2022-04-09T20:17:25.040Z,southeast of the Loyalty Islands,earthquake,8.9,4.5,0.098,10,reviewed,us,us
+2022-04-09T15:11:23.960Z,-13.9234,167.3699,192.89,4.3,mb,,90,1.523,0.74,us,us7000h1vd,2022-04-16T19:05:46.040Z,"20 km WSW of Sola, Vanuatu",earthquake,6.6,6.2,0.108,27,reviewed,us,us
+2022-04-08T19:40:51.660Z,-14.9859,167.5069,111.01,5,mb,,179,0.544,0.65,us,us7000h0su,2022-04-08T20:53:46.808Z,"47 km E of Port-Olry, Vanuatu",earthquake,11.4,6.7,0.109,27,reviewed,us,us
+2022-04-07T02:08:30.687Z,-10.7732,166.1261,35,4.5,mb,,77,4.762,0.78,us,us7000h1su,2022-04-17T23:13:32.040Z,"36 km E of Lata, Solomon Islands",earthquake,6.1,2,0.204,8,reviewed,us,us
+2022-04-06T22:44:09.640Z,-11.807,166.7016,180.82,4.4,mb,,145,3.651,0.56,us,us7000h1sf,2022-04-29T23:46:01.040Z,"155 km SE of Lata, Solomon Islands",earthquake,11.7,5.5,0.12,20,reviewed,us,us
+2022-04-06T19:07:32.434Z,-22.5141,170.3045,10,4.2,mb,,117,2.643,1.12,us,us7000h1sa,2022-04-13T18:45:30.040Z,"272 km ESE of Tadine, New Caledonia",earthquake,6.4,1.9,0.186,8,reviewed,us,us
+2022-04-06T02:49:54.514Z,-22.9824,170.3244,10,4.1,mb,,182,2.681,0.93,us,us7000h1sm,2022-04-30T00:16:26.040Z,"292 km E of Vao, New Caledonia",earthquake,9.3,2,0.3,3,reviewed,us,us
+2022-04-06T02:09:18.586Z,-22.9597,170.4331,10,4.6,mb,,132,2.777,0.83,us,us7000h1rf,2022-04-30T00:24:53.040Z,southeast of the Loyalty Islands,earthquake,9.3,1.8,0.183,9,reviewed,us,us
+2022-04-06T01:32:00.491Z,-22.4827,170.7166,10,4.6,mb,,175,3.025,0.68,us,us7000h1sl,2022-04-30T00:42:50.040Z,southeast of the Loyalty Islands,earthquake,9.2,2,0.193,8,reviewed,us,us
+2022-04-05T15:37:20.284Z,-14.0979,167.1388,159.72,4.5,mb,,104,1.342,0.33,us,us7000h0qy,2022-04-13T18:42:26.040Z,"50 km WSW of Sola, Vanuatu",earthquake,11.7,6.5,0.163,14,reviewed,us,us
+2022-04-05T03:51:32.513Z,-17.3681,165.6578,10,4.5,mb,,66,2.418,0.9,us,us7000h0qc,2022-04-14T00:32:48.040Z,"234 km SW of Lakatoro, Vanuatu",earthquake,6.1,1.9,0.192,11,reviewed,us,us
+2022-04-05T00:46:08.659Z,-22.5166,170.3936,10,4.8,mb,,69,2.725,0.91,us,us7000gzq4,2022-04-12T03:34:41.040Z,"280 km ESE of Tadine, New Caledonia",earthquake,4.8,1.8,0.083,45,reviewed,us,us
+2022-04-04T16:06:57.662Z,-17.4723,167.8625,31,6,mww,,32,2.11,0.82,us,usd000h551,2022-04-13T13:43:36.370Z,"56 km WNW of Port-Vila, Vanuatu",earthquake,6.9,1.8,0.046,45,reviewed,us,us
+2022-04-04T14:00:00.380Z,-21.9019,170.257,10,4.5,mb,,200,2.698,0.66,us,us7000h0nt,2022-04-12T13:28:09.040Z,"249 km E of Tadine, New Caledonia",earthquake,7.1,2,0.131,17,reviewed,us,us
+2022-04-04T13:43:14.211Z,-22.0363,170.2586,10,4.5,mb,,151,2.666,0.62,us,us7000h0ns,2022-04-12T13:15:31.040Z,"251 km ESE of Tadine, New Caledonia",earthquake,11.3,1.9,0.14,18,reviewed,us,us
+2022-04-04T06:48:13.618Z,-23.0319,170.5388,10,4.7,mb,,114,2.883,0.51,us,us7000gzi8,2022-04-04T07:11:35.040Z,southeast of the Loyalty Islands,earthquake,10.4,1.9,0.137,16,reviewed,us,us
+2022-04-04T00:03:31.225Z,-22.439,169.9571,10,4.5,mb,,74,2.327,0.57,us,us7000gzgv,2022-04-19T04:27:38.040Z,"236 km ESE of Tadine, New Caledonia",earthquake,8.9,1.9,0.144,14,reviewed,us,us
+2022-04-03T23:46:26.385Z,-22.4674,170.0841,10,4.5,mb,,83,2.442,0.64,us,us7000gzgs,2022-04-19T04:25:24.040Z,"249 km ESE of Tadine, New Caledonia",earthquake,9.1,1.9,0.136,16,reviewed,us,us
+2022-04-03T22:39:53.579Z,-22.7063,171.0918,10,4.3,mb,,102,3.368,0.84,us,us7000h0gm,2022-04-12T02:18:21.040Z,southeast of the Loyalty Islands,earthquake,9.1,1.9,0.218,6,reviewed,us,us
+2022-04-03T20:06:17.700Z,-22.4731,170.1677,10,4.6,mb,,85,2.519,1.02,us,us7000h0gd,2022-04-15T21:10:17.040Z,"257 km ESE of Tadine, New Caledonia",earthquake,7.6,1.9,0.117,22,reviewed,us,us
+2022-04-03T18:44:29.647Z,-22.7765,170.0847,10,4.8,mww,,185,2.441,0.51,us,us7000gzeu,2022-04-03T19:23:08.040Z,"264 km ESE of Tadine, New Caledonia",earthquake,7.5,1.9,0.098,10,reviewed,us,us
+2022-04-03T18:32:29.994Z,-22.9375,170.0666,10,4.8,mb,,93,2.439,0.96,us,us7000gzez,2022-04-03T20:22:01.040Z,"265 km E of Vao, New Caledonia",earthquake,8.6,1.9,0.1,31,reviewed,us,us
+2022-04-03T15:40:28.241Z,-22.8756,170.0336,10,4.9,mb,,108,2.402,0.75,us,us7000h0g4,2022-04-11T13:31:19.040Z,"261 km E of Vao, New Caledonia",earthquake,9.2,1.8,0.08,52,reviewed,us,us
+2022-04-03T15:02:38.426Z,-21.9091,170.0202,12.12,4.6,mb,,111,2.484,0.46,us,us7000h0gg,2022-04-10T21:17:56.040Z,"224 km E of Tadine, New Caledonia",earthquake,10,5.1,0.244,7,reviewed,us,us
+2022-04-03T14:54:20.981Z,-22.8955,170.1639,10,4.7,mb,,123,2.524,0.39,us,us7000h0gf,2022-04-10T21:00:04.040Z,"275 km E of Vao, New Caledonia",earthquake,6.6,1.9,0.166,16,reviewed,us,us
+2022-04-03T13:13:13.428Z,-22.7772,170.183,10,4.4,mb,,124,2.532,0.35,us,us7000h0fz,2022-04-10T19:23:33.040Z,"273 km ESE of Tadine, New Caledonia",earthquake,15,1.9,0.241,6,reviewed,us,us
+2022-04-03T13:00:29.426Z,-22.6694,170.3769,5.39,4.2,mb,,105,2.707,0.21,us,us7000h0g9,2022-04-10T15:08:51.040Z,"286 km ESE of Tadine, New Caledonia",earthquake,11.1,6.4,0.176,11,reviewed,us,us
+2022-04-02T23:06:23.971Z,-22.5751,170.8928,10,4.9,mb,,111,3.185,0.68,us,us7000gz9t,2022-04-30T02:45:23.040Z,southeast of the Loyalty Islands,earthquake,9,1.8,0.099,32,reviewed,us,us
+2022-04-02T23:04:56.364Z,-22.9075,170.5032,10,4.2,mb,,107,2.836,0.39,us,us7000h0ea,2022-04-30T02:55:40.040Z,southeast of the Loyalty Islands,earthquake,6.5,1.9,0.215,6,reviewed,us,us
+2022-04-02T22:21:48.051Z,-22.917,170.72,10,4.5,mb,,114,3.036,0.75,us,us7000h0e7,2022-04-30T03:10:09.040Z,southeast of the Loyalty Islands,earthquake,7.5,1.9,0.22,6,reviewed,us,us
+2022-04-02T18:45:00.592Z,-22.688,170.5432,9,5.6,mww,,80,2.861,0.75,us,us7000gz8x,2022-04-30T16:32:00.586Z,southeast of the Loyalty Islands,earthquake,6.5,1.8,0.051,37,reviewed,us,us
+2022-04-02T16:23:37.875Z,-22.8487,170.7817,10,4.3,mb,,70,3.088,1.11,us,us7000h0e1,2022-04-15T20:01:26.040Z,southeast of the Loyalty Islands,earthquake,7.8,1.7,0.133,16,reviewed,us,us
+2022-04-02T12:32:54.110Z,-12.2799,167.2967,228.62,4,mb,,182,3.149,0.29,us,us7000h0dt,2022-04-30T09:16:12.040Z,"178 km N of Sola, Vanuatu",earthquake,7.1,11,0.129,17,reviewed,us,us
+2022-04-02T10:45:57.119Z,-22.6607,170.5361,9.1,5.5,mww,,109,2.854,0.75,us,us7000gz79,2022-04-29T11:44:27.896Z,southeast of the Loyalty Islands,earthquake,2.5,4.2,0.068,21,reviewed,us,us
+2022-04-02T09:00:15.630Z,-22.0596,170.8108,10,4.4,mb,,209,3.163,0.66,us,us7000h0dr,2022-04-29T07:16:24.040Z,southeast of the Loyalty Islands,earthquake,14.3,2,0.162,11,reviewed,us,us
+2022-04-02T08:14:51.618Z,-22.2317,170.0665,10,4.4,mb,,154,2.453,0.87,us,us7000h0dk,2022-04-16T13:17:37.040Z,"238 km ESE of Tadine, New Caledonia",earthquake,12.8,1.9,0.143,14,reviewed,us,us
+2022-04-02T04:44:13.189Z,-22.9186,170.4824,10,4.2,mb,,106,2.818,1.08,us,us7000h0dd,2022-04-07T22:18:47.040Z,southeast of the Loyalty Islands,earthquake,9.3,1.7,0.263,4,reviewed,us,us
+2022-04-02T04:15:06.447Z,-22.8883,170.5266,22.16,5.6,mww,,77,2.856,1.32,us,us7000gz5q,2022-04-28T21:21:28.971Z,southeast of the Loyalty Islands,earthquake,8.1,4.1,0.061,26,reviewed,us,us
+2022-04-01T16:01:14.831Z,-8.5479,159.0203,108.03,4.4,mb,,67,1.273,0.91,us,us7000gz24,2022-04-25T15:09:36.040Z,"77 km SW of Buala, Solomon Islands",earthquake,8.8,5.4,0.098,30,reviewed,us,us
+2022-04-01T13:05:18.925Z,-22.6,170.2659,16,5.5,mww,,32,2.605,0.9,us,us7000gyza,2022-04-15T08:31:49.316Z,"272 km ESE of Tadine, New Caledonia",earthquake,4.6,1.7,0.057,30,reviewed,us,us
+2022-04-01T10:48:49.477Z,-22.0415,171.2427,10,4,mb,,81,3.56,0.39,us,us7000h068,2022-04-28T11:56:45.040Z,southeast of the Loyalty Islands,earthquake,9,1.9,0.298,3,reviewed,us,us
+2022-04-01T10:17:26.777Z,-22.651,170.9853,10,4.1,mb,,148,3.269,0.51,us,us7000h067,2022-04-28T12:08:42.040Z,southeast of the Loyalty Islands,earthquake,9.7,1.9,0.233,5,reviewed,us,us
+2022-04-01T01:27:32.984Z,-23.0792,170.6146,10,4.6,mb,,107,2.959,1.02,us,us7000h05x,2022-04-07T00:52:49.040Z,southeast of the Loyalty Islands,earthquake,7.6,1.9,0.274,5,reviewed,us,us
+2022-04-01T01:15:28.049Z,-22.4795,170.6864,10,4.4,mb,,186,2.998,0.97,us,us7000h05w,2022-04-07T00:47:05.040Z,southeast of the Loyalty Islands,earthquake,10.9,1.9,0.269,4,reviewed,us,us
+2022-04-01T01:08:14.815Z,-22.8832,170.5603,10,4.8,mb,,106,2.887,0.61,us,us7000gyum,2022-04-23T02:22:02.040Z,southeast of the Loyalty Islands,earthquake,6.8,1.9,0.124,22,reviewed,us,us
+2022-04-01T00:12:39.404Z,-22.3586,170.2478,10,4.1,mb,,187,2.603,0.34,us,us7000h05u,2022-04-10T03:19:40.040Z,"260 km ESE of Tadine, New Caledonia",earthquake,8.9,2,0.37,2,reviewed,us,us
+2022-03-31T23:32:34.458Z,-22.807,171.0845,10,4.6,mb,,72,3.364,0.65,us,us7000gzwg,2022-04-09T03:28:21.040Z,southeast of the Loyalty Islands,earthquake,7.8,1.9,0.173,10,reviewed,us,us
+2022-03-31T23:13:42.735Z,-22.8819,170.8071,10,4.4,mb,,154,3.113,0.39,us,us7000gzwh,2022-04-09T03:37:32.040Z,southeast of the Loyalty Islands,earthquake,7.7,2,0.24,5,reviewed,us,us
+2022-03-31T22:33:18.176Z,-22.8543,170.5397,10,4.5,mb,,110,2.865,0.72,us,us7000gzwd,2022-04-16T04:21:03.040Z,southeast of the Loyalty Islands,earthquake,9.1,1.9,0.172,10,reviewed,us,us
+2022-03-31T21:59:44.678Z,-22.6706,170.65,10,5.1,mb,,50,2.96,1.11,us,us7000gyts,2022-03-31T22:15:41.040Z,southeast of the Loyalty Islands,earthquake,7.5,1.9,0.073,62,reviewed,us,us
+2022-03-31T20:09:49.692Z,-22.6294,170.5407,10,4.5,mb,,105,2.859,0.99,us,us7000gzw9,2022-04-07T16:11:56.040Z,"299 km ESE of Tadine, New Caledonia",earthquake,5.1,1.9,0.156,12,reviewed,us,us
+2022-03-31T19:50:40.985Z,-22.6577,170.8084,20,6.4,mww,,33,3.106,0.97,us,us7000gysz,2022-04-27T19:56:06.361Z,southeast of the Loyalty Islands,earthquake,7.9,1.8,0.034,81,reviewed,us,us
+2022-03-31T16:41:44.672Z,-22.9528,170.1807,10,4.2,mb,,219,3.565,0.96,us,us7000gzw8,2022-04-27T21:14:12.040Z,"277 km E of Vao, New Caledonia",earthquake,10.1,2,0.235,7,reviewed,us,us
+2022-03-31T15:54:27.430Z,-22.1992,170.2715,10,5.4,mww,,45,2.646,0.88,us,us7000gyr3,2022-04-29T18:05:41.040Z,"257 km ESE of Tadine, New Caledonia",earthquake,7.2,1.7,0.059,28,reviewed,us,us
+2022-03-31T15:36:46.755Z,-22.5135,170.118,10,4.4,mb,,102,2.471,0.51,us,us7000gzw3,2022-04-27T19:57:39.040Z,"254 km ESE of Tadine, New Caledonia",earthquake,8.1,1.9,0.12,24,reviewed,us,us
+2022-03-31T15:30:47.491Z,-22.6247,170.8025,10,5.1,mww,,47,3.1,0.92,us,us7000gyr4,2022-04-27T19:51:00.040Z,southeast of the Loyalty Islands,earthquake,9,1.8,0.098,10,reviewed,us,us
+2022-03-31T15:29:53.236Z,-22.6847,170.7293,10,5.3,mww,,49,3.033,0.84,us,us7000gyqw,2022-04-27T19:43:09.040Z,southeast of the Loyalty Islands,earthquake,9.8,1.8,0.098,10,reviewed,us,us
+2022-03-31T15:02:52.609Z,-11.9305,166.7315,62.7,4.6,mb,,120,3.525,0.75,us,us7000gzws,2022-04-27T19:35:24.040Z,"167 km SE of Lata, Solomon Islands",earthquake,9.5,7.4,0.173,13,reviewed,us,us
+2022-03-31T15:01:36.611Z,-22.4672,170.2232,10,4.4,mb,,71,2.571,0.94,us,us7000gzw2,2022-04-27T19:18:24.040Z,"262 km ESE of Tadine, New Caledonia",earthquake,7.9,1.7,0.134,23,reviewed,us,us
+2022-03-31T14:29:09.277Z,-22.2023,170.2967,10,4.4,mb,,77,2.669,1.13,us,us7000gzwt,2022-04-09T15:22:11.040Z,"260 km ESE of Tadine, New Caledonia",earthquake,9.8,1.9,0.149,17,reviewed,us,us
+2022-03-31T11:42:32.498Z,-22.3749,170.1287,10,4.5,mb,,107,2.491,1.15,us,us7000gyp9,2022-04-28T09:00:05.040Z,"249 km ESE of Tadine, New Caledonia",earthquake,8,1.9,0.136,19,reviewed,us,us
+2022-03-31T11:17:09.987Z,-22.3984,170.6964,10,4.2,mb,,169,3.012,1.24,us,us7000gzvs,2022-04-28T09:20:45.040Z,southeast of the Loyalty Islands,earthquake,9.9,1.7,0.2,11,reviewed,us,us
+2022-03-31T10:59:45.322Z,-22.3871,170.299,10,4.1,mb,,169,2.647,1.19,us,us7000gzvr,2022-04-28T10:22:32.040Z,"266 km ESE of Tadine, New Caledonia",earthquake,10.6,1.9,0.213,7,reviewed,us,us
+2022-03-31T10:16:21.967Z,-22.6538,170.7397,10,5.1,mb,,101,3.042,1.08,us,us7000gyp3,2022-04-27T14:00:04.040Z,southeast of the Loyalty Islands,earthquake,4,1.8,0.096,35,reviewed,us,us
+2022-03-31T09:38:05.043Z,-22.4878,170.7358,10,4.4,mb,,120,3.043,1.07,us,us7000gzvn,2022-04-28T09:06:51.040Z,southeast of the Loyalty Islands,earthquake,10.3,1.9,0.203,7,reviewed,us,us
+2022-03-31T09:09:25.786Z,-22.3038,170.3081,10,4.4,mb,,187,2.664,0.77,us,us7000gzvk,2022-04-28T09:09:32.040Z,"264 km ESE of Tadine, New Caledonia",earthquake,9.6,1.9,0.169,11,reviewed,us,us
+2022-03-31T09:07:04.870Z,-22.4846,170.131,10,4.3,mb,,163,2.485,0.64,us,us7000gzvi,2022-04-07T07:40:16.040Z,"254 km ESE of Tadine, New Caledonia",earthquake,9.9,1.9,0.201,9,reviewed,us,us
+2022-03-31T08:53:32.992Z,-22.8507,170.4337,10,4.2,mb,,111,2.768,0.35,us,us7000gzvm,2022-04-27T06:51:20.040Z,southeast of the Loyalty Islands,earthquake,8.9,1.9,0.167,14,reviewed,us,us
+2022-03-31T07:46:18.699Z,-22.5229,170.4522,10,4.4,mb,,118,2.779,0.53,us,us7000gzvz,2022-04-27T07:06:11.040Z,"286 km ESE of Tadine, New Caledonia",earthquake,4.8,1.9,0.155,16,reviewed,us,us
+2022-03-31T07:41:38.108Z,-22.3651,170.0337,10,4.7,mb,,82,2.405,0.89,us,us7000gynm,2022-04-27T06:08:38.040Z,"240 km ESE of Tadine, New Caledonia",earthquake,6.9,1.8,0.112,24,reviewed,us,us
+2022-03-31T07:29:38.135Z,-22.6125,170.4424,10,4.4,mb,,108,2.768,0.4,us,us7000gzvc,2022-04-27T06:39:10.040Z,"289 km ESE of Tadine, New Caledonia",earthquake,10.4,1.7,0.169,13,reviewed,us,us
+2022-03-31T07:22:01.025Z,-22.5452,170.1161,10,5.1,mb,,83,2.468,0.5,us,us7000gyng,2022-04-27T06:20:55.040Z,"255 km ESE of Tadine, New Caledonia",earthquake,7.6,1.8,0.084,46,reviewed,us,us
+2022-03-31T07:09:46.730Z,-22.2574,170.6888,10,4.4,mb,,244,3.02,0.41,us,us7000gzvw,2022-04-27T07:25:06.040Z,southeast of the Loyalty Islands,earthquake,11.8,2,0.179,13,reviewed,us,us
+2022-03-31T06:56:57.217Z,-22.741,170.3585,10,4.3,mb,,80,2.692,0.32,us,us7000gzvp,2022-04-28T06:17:30.040Z,"287 km ESE of Tadine, New Caledonia",earthquake,6.4,1.9,0.188,11,reviewed,us,us
+2022-03-31T06:45:08.388Z,-22.5848,170.1191,10,4.9,mb,,150,2.47,0.61,us,us7000gyn9,2022-04-27T12:08:13.040Z,"258 km ESE of Tadine, New Caledonia",earthquake,9.4,1.9,0.094,36,reviewed,us,us
+2022-03-31T06:42:25.959Z,-22.688,170.1843,10,4.6,mb,,82,2.53,0.35,us,us7000gyn8,2022-04-27T12:02:50.040Z,"269 km ESE of Tadine, New Caledonia",earthquake,4,1.8,0.117,22,reviewed,us,us
+2022-03-31T06:31:48.249Z,-22.096,170.732,10,4.2,mb,,198,3.084,0.45,us,us7000gzwv,2022-04-28T08:06:02.040Z,southeast of the Loyalty Islands,earthquake,7,2,0.166,11,reviewed,us,us
+2022-03-31T06:27:45.104Z,-22.402,170.1823,10,4.3,mb,,154,2.538,0.43,us,us7000gzvb,2022-04-28T07:33:45.040Z,"255 km ESE of Tadine, New Caledonia",earthquake,7.8,2,0.168,15,reviewed,us,us
+2022-03-31T06:24:41.611Z,-21.8083,170.3661,10,4.2,mb,,189,2.821,0.48,us,us7000gzvu,2022-04-28T06:35:13.040Z,"258 km E of Tadine, New Caledonia",earthquake,7.1,2,0.153,15,reviewed,us,us
+2022-03-31T06:23:01.390Z,-22.4521,170.1654,10,4.3,mb,,208,2.518,0.51,us,us7000gzwr,2022-04-28T05:59:31.040Z,"256 km ESE of Tadine, New Caledonia",earthquake,11.2,1.9,0.137,18,reviewed,us,us
+2022-03-31T06:20:42.603Z,-22.37,170.388,10,4,mb,,192,2.731,0.32,us,us7000gzwq,2022-04-28T05:20:28.040Z,"274 km ESE of Tadine, New Caledonia",earthquake,9.1,1.9,0.172,10,reviewed,us,us
+2022-03-31T06:17:03.981Z,-22.4157,170.3923,10,4.9,mb,,96,2.731,0.54,us,us7000gzvt,2022-04-27T10:23:41.040Z,"276 km ESE of Tadine, New Caledonia",earthquake,3.9,1.9,0.087,50,reviewed,us,us
+2022-03-31T06:12:24.839Z,-22.3751,170.3502,10,5.6,mb,,70,2.695,0.68,us,us7000gymz,2022-04-27T12:00:26.787Z,"271 km ESE of Tadine, New Caledonia",earthquake,3.2,1.8,0.049,150,reviewed,us,us
+2022-03-31T06:09:47.890Z,-22.3661,170.1769,10,5.2,mb,,68,2.537,0.54,us,us7000gymy,2022-04-27T11:02:13.850Z,"253 km ESE of Tadine, New Caledonia",earthquake,7.3,1.9,0.071,70,reviewed,us,us
+2022-03-31T06:07:59.752Z,-22.4937,170.1813,10,4.6,mb,,108,2.53,0.4,us,us7000gzva,2022-04-27T12:43:09.040Z,"259 km ESE of Tadine, New Caledonia",earthquake,7.9,1.9,0.122,24,reviewed,us,us
+2022-03-31T06:03:20.129Z,-22.3326,170.5345,10,4.9,mb,,74,2.869,0.46,us,us7000gzwu,2022-04-27T13:10:51.040Z,"287 km ESE of Tadine, New Caledonia",earthquake,9,1.9,0.14,28,reviewed,us,us
+2022-03-31T06:02:09.283Z,-22.4587,170.3916,10,5.9,mww,,32,2.727,0.52,us,us7000gymw,2022-04-29T18:00:47.040Z,"278 km ESE of Tadine, New Caledonia",earthquake,7.5,1.9,0.065,23,reviewed,us,us
+2022-03-31T06:01:42.941Z,-22.2977,170.3875,10,4,mb,,71,2.738,0.88,us,us7000gzv8,2022-04-27T08:34:38.040Z,"272 km ESE of Tadine, New Caledonia",earthquake,8.6,1.9,0.232,5,reviewed,us,us
+2022-03-31T05:58:50.701Z,-22.4516,170.6141,10,4.1,mb,,191,2.933,0.72,us,us7000gzv9,2022-04-27T09:50:20.040Z,"299 km ESE of Tadine, New Caledonia",earthquake,10.9,2,0.214,7,reviewed,us,us
+2022-03-31T05:55:47.047Z,-21.9169,170.3051,10,4.4,mb,,186,2.737,0.29,us,us7000gzvj,2022-04-27T09:34:08.040Z,"254 km E of Tadine, New Caledonia",earthquake,12.2,2,0.239,9,reviewed,us,us
+2022-03-31T05:44:01.141Z,-22.5855,170.3749,10,7,mww,,26,2.706,0.81,us,us7000gymk,2022-04-29T17:19:41.040Z,"281 km ESE of Tadine, New Caledonia",earthquake,7.1,1.8,0.057,30,reviewed,us,us
+2022-03-31T03:25:48.226Z,-22.312,170.2872,10,4.9,mb,,102,2.644,0.9,us,us7000gylu,2022-04-06T22:19:40.040Z,"262 km ESE of Tadine, New Caledonia",earthquake,5.9,1.8,0.104,29,reviewed,us,us
+2022-03-31T03:21:39.767Z,-22.5013,170.1925,10,4.5,mb,,108,2.54,0.81,us,us7000gzv4,2022-04-06T22:13:13.040Z,"261 km ESE of Tadine, New Caledonia",earthquake,7.4,1.4,0.171,10,reviewed,us,us
+2022-03-31T03:18:14.268Z,-22.3119,170.2493,10,4.7,mb,,115,3.534,0.85,us,us7000gzv2,2022-04-06T20:50:34.040Z,"258 km ESE of Tadine, New Caledonia",earthquake,6.8,1.9,0.142,15,reviewed,us,us
+2022-03-31T03:06:47.424Z,-22.4036,170.1699,10,5.7,mww,,31,2.526,0.7,us,us7000gyln,2022-04-06T05:03:09.531Z,"254 km ESE of Tadine, New Caledonia",earthquake,2.7,1.7,0.075,17,reviewed,us,us
+2022-03-31T02:50:16.863Z,-21.9174,170.2735,10,4.6,mb,,106,2.708,0.85,us,us7000gzv1,2022-04-06T04:45:49.040Z,"250 km E of Tadine, New Caledonia",earthquake,9.7,1.9,0.165,11,reviewed,us,us
+2022-03-31T01:34:15.781Z,-22.4898,170.1141,10,4.5,mb,,68,2.469,0.9,us,us7000gzux,2022-04-06T03:03:42.040Z,"253 km ESE of Tadine, New Caledonia",earthquake,8.2,1.9,0.157,12,reviewed,us,us
+2022-03-31T00:57:32.722Z,-22.4764,170.4448,10,4.6,mb,,107,2.775,0.69,us,us7000gzuv,2022-04-28T05:52:45.040Z,"284 km ESE of Tadine, New Caledonia",earthquake,4.8,1.9,0.146,14,reviewed,us,us
+2022-03-31T00:55:23.724Z,-22.4171,170.2551,10,4.6,mb,,103,2.604,0.99,us,us7000gzuw,2022-04-28T05:45:45.040Z,"263 km ESE of Tadine, New Caledonia",earthquake,5.3,1.8,0.133,17,reviewed,us,us
+2022-03-31T00:28:49.547Z,-22.52,170.3472,10,4.7,mb,,104,2.682,0.92,us,us7000gykr,2022-04-28T05:33:24.040Z,"276 km ESE of Tadine, New Caledonia",earthquake,8.1,1.8,0.089,38,reviewed,us,us
+2022-03-31T00:23:07.131Z,-22.4814,170.1304,10,4.7,mb,,105,2.484,0.66,us,us7000gykq,2022-04-28T05:29:31.040Z,"254 km ESE of Tadine, New Caledonia",earthquake,8,1.9,0.111,25,reviewed,us,us
+2022-03-30T23:56:20.685Z,-22.0964,170.3002,10,4.5,mb,,109,2.691,0.63,us,us7000gzm8,2022-04-28T05:00:13.040Z,"257 km ESE of Tadine, New Caledonia",earthquake,5.8,1.9,0.205,7,reviewed,us,us
+2022-03-30T23:54:31.660Z,-22.482,170.2814,10,5.1,mb,,103,2.624,0.92,us,us7000gyke,2022-04-28T04:54:48.040Z,"268 km ESE of Tadine, New Caledonia",earthquake,7.8,1.8,0.073,60,reviewed,us,us
+2022-03-30T22:41:25.007Z,-22.646,170.3013,10,4.4,mb,,205,2.637,0.42,us,us7000gzm7,2022-04-28T04:02:30.040Z,"277 km ESE of Tadine, New Caledonia",earthquake,9.5,1.9,0.203,7,reviewed,us,us
+2022-03-30T22:28:09.892Z,-22.656,170.1439,10,4.6,mb,,103,2.492,0.55,us,us7000gyjp,2022-04-28T03:54:04.040Z,"263 km ESE of Tadine, New Caledonia",earthquake,7.7,1.9,0.128,18,reviewed,us,us
+2022-03-30T21:32:27.795Z,-22.4476,170.2668,10,4.2,mb,,205,2.612,0.5,us,us7000gzm4,2022-04-28T03:27:16.040Z,"265 km ESE of Tadine, New Caledonia",earthquake,7,2,0.215,6,reviewed,us,us
+2022-03-30T21:13:25.053Z,-22.7097,169.9408,10,4.4,mb,,243,2.306,0.63,us,us7000gyj7,2022-04-28T03:14:32.040Z,"248 km ESE of Tadine, New Caledonia",earthquake,9.8,2,0.219,6,reviewed,us,us
+2022-03-30T20:56:58.151Z,-22.6709,170.3778,10,6.9,mww,,42,2.708,1.11,us,us7000gyj0,2022-04-05T14:38:00.739Z,"286 km ESE of Tadine, New Caledonia",earthquake,8.1,1.8,0.066,22,reviewed,us,us
+2022-03-29T19:36:20.690Z,-18.8831,168.8963,120.9,4.6,mb,,134,3.78,0.73,us,us7000gy79,2022-04-27T18:28:26.040Z,"83 km NNW of Isangel, Vanuatu",earthquake,7.2,4.9,0.09,39,reviewed,us,us
+2022-03-29T07:12:16.997Z,-22.0552,170.084,10,5.2,mww,,42,2.504,1.04,us,us7000gy1p,2022-04-27T05:51:09.040Z,"234 km ESE of Tadine, New Caledonia",earthquake,7.4,1.8,0.08,15,reviewed,us,us
+2022-03-29T04:08:17.809Z,-14.7264,167.4542,132.82,4.5,mb,,132,0.756,0.58,us,us7000gz0z,2022-04-04T00:14:37.040Z,"53 km NE of Port-Olry, Vanuatu",earthquake,13.3,6.5,0.125,19,reviewed,us,us
+2022-03-29T01:36:38.977Z,-18.7762,169.1094,208.87,4.9,mb,,77,3.779,0.5,us,us7000gxzm,2022-04-03T22:33:59.040Z,"86 km NNW of Isangel, Vanuatu",earthquake,7,5,0.037,232,reviewed,us,us
+2022-03-28T07:03:40.216Z,-13.4763,167.3155,10,4.3,mb,,151,1.962,0.38,us,us7000gyzt,2022-04-28T10:03:13.040Z,"51 km NNW of Sola, Vanuatu",earthquake,7.6,2,0.218,6,reviewed,us,us
+2022-03-26T06:17:38.661Z,-14.3482,167.4295,167,4.4,mb,,88,1.114,0.62,us,us7000gyq7,2022-04-15T04:39:45.040Z,"53 km SSW of Sola, Vanuatu",earthquake,7.5,8.8,0.126,18,reviewed,us,us
+2022-03-25T13:41:25.005Z,-17.8701,167.3255,10,4.4,mb,,145,2.412,0.62,us,us7000gx83,2022-04-08T06:09:57.040Z,"105 km W of Port-Vila, Vanuatu",earthquake,9.1,1.9,0.117,21,reviewed,us,us
+2022-03-25T09:22:59.981Z,-22.929,172.3552,10,4.3,mb,,127,4.541,1.06,us,us7000gygc,2022-04-21T12:43:15.040Z,southeast of the Loyalty Islands,earthquake,10.4,1.5,0.177,10,reviewed,us,us
+2022-03-24T08:09:32.508Z,-15.1741,167.5655,133.44,4.5,mb,,72,0.442,0.69,us,us7000gwt1,2022-04-20T06:37:55.040Z,"54 km ESE of Port-Olry, Vanuatu",earthquake,7.5,6.1,0.125,19,reviewed,us,us
+2022-03-24T01:35:54.006Z,-13.7026,167.7215,258.32,4.6,mb,,153,1.805,0.37,us,us7000gy5y,2022-03-30T04:03:21.040Z,"26 km NE of Sola, Vanuatu",earthquake,14.1,6.1,0.173,10,reviewed,us,us
+2022-03-23T21:57:00.144Z,-15.0687,167.4522,115,6,mww,,20,0.446,0.74,us,us7000gwpw,2022-04-27T21:02:14.001Z,"40 km E of Port-Olry, Vanuatu",earthquake,8.3,1.8,0.039,63,reviewed,us,us
+2022-03-23T13:15:56.045Z,-10.9051,166.0963,68.73,4.3,mb,,109,4.641,0.35,us,us7000gy40,2022-04-21T12:51:21.040Z,"38 km ESE of Lata, Solomon Islands",earthquake,11.1,13.3,0.238,5,reviewed,us,us
+2022-03-23T11:57:30.036Z,-22.9295,172.4228,10,5.2,mb,,126,4.603,0.98,us,us6000h6x2,2022-04-08T06:21:14.801Z,southeast of the Loyalty Islands,earthquake,9.6,1.9,0.11,27,reviewed,us,us
+2022-03-23T11:26:58.946Z,-14.9009,167.03,87.66,4.3,mb,,147,0.568,0.38,us,us7000gy3u,2022-04-08T06:11:28.040Z,"16 km NNW of Port-Olry, Vanuatu",earthquake,13.1,8.9,0.178,9,reviewed,us,us
+2022-03-22T03:48:11.869Z,-15.3998,167.5893,116.61,4.8,mb,,144,0.375,0.43,us,us6000h6kh,2022-03-27T23:51:24.040Z,"47 km ENE of Luganville, Vanuatu",earthquake,11.2,5.6,0.114,24,reviewed,us,us
+2022-03-21T14:31:18.912Z,-18.515,178.6671,548.85,4.1,mb,,101,0.963,0.4,us,us7000gx9y,2022-03-27T19:41:13.040Z,"47 km SSE of Suva, Fiji",earthquake,13.9,10.4,0.166,14,reviewed,us,us
+2022-03-20T00:09:39.832Z,-22.9159,171.0628,10,4.4,mb,,127,3.351,1.31,us,us7000gwxd,2022-04-27T21:01:29.040Z,southeast of the Loyalty Islands,earthquake,9.7,1.9,0.178,9,reviewed,us,us
+2022-03-19T23:19:43.463Z,-16.5036,178.1047,10,4.5,mb,,130,1.235,0.5,us,us7000gwuj,2022-04-27T21:32:07.040Z,"122 km NNE of Ba, Fiji",earthquake,10.3,1.9,0.242,5,reviewed,us,us
+2022-03-19T13:07:42.418Z,-10.0733,161.5184,101.74,4.4,mb,,71,1.671,0.79,us,us7000gwu2,2022-04-01T16:25:44.040Z,"60 km NW of Kirakira, Solomon Islands",earthquake,7.1,7,0.123,19,reviewed,us,us
+2022-03-19T11:22:53.032Z,-13.4486,167.2802,191.35,4.1,mb,,186,1.988,0.59,us,us7000gwtx,2022-04-15T09:45:35.040Z,"55 km NNW of Sola, Vanuatu",earthquake,14.7,8.3,0.158,14,reviewed,us,us
+2022-03-19T06:30:54.495Z,-15.1138,167.5876,121.85,4.3,mb,,146,0.497,0.7,us,us7000gwtq,2022-04-27T04:51:16.040Z,"55 km E of Port-Olry, Vanuatu",earthquake,13.6,4.1,0.177,10,reviewed,us,us
+2022-03-18T21:14:00.399Z,-10.4161,163.4341,10,4.3,mb,,125,3.569,0.34,us,us7000gwnw,2022-04-23T02:42:05.040Z,"165 km E of Kirakira, Solomon Islands",earthquake,8.9,1.9,0.218,6,reviewed,us,us
+2022-03-18T05:19:33.367Z,-9.7314,159.8105,36.15,4.9,mb,,76,0.32,0.6,us,us6000h5m3,2022-03-26T15:33:54.268Z,"10 km ESE of Malango, Solomon Islands",earthquake,6.7,3.8,0.072,60,reviewed,us,us
+2022-03-18T03:52:33.664Z,-22.714,170.8226,10,4.5,mb,,181,3.12,1.02,us,us7000gwmx,2022-03-24T00:34:17.040Z,southeast of the Loyalty Islands,earthquake,13.6,1.9,0.242,6,reviewed,us,us
+2022-03-18T01:54:56.501Z,-9.8689,159.7465,10,4.1,mb,,103,0.471,0.08,us,us7000gwms,2022-03-23T23:24:40.040Z,"19 km S of Malango, Solomon Islands",earthquake,6.5,2,0.261,5,reviewed,us,us
+2022-03-17T15:19:17.719Z,-11.2462,165.4732,10,4.9,mww,,102,4.502,0.58,us,us6000h5f3,2022-04-12T18:11:19.040Z,"67 km SSW of Lata, Solomon Islands",earthquake,8.3,1.8,0.098,10,reviewed,us,us
+2022-03-15T03:14:01.847Z,-23.0961,178.7837,576.1,4.2,mb,,138,11.403,0.71,us,us6000h5sm,2022-03-22T00:23:43.040Z,south of the Fiji Islands,earthquake,15.5,9.1,0.11,23,reviewed,us,us
+2022-03-14T20:13:24.460Z,-11.6114,165.6045,10,4.6,mb,,136,4.117,0.87,us,us6000h5s5,2022-04-13T17:33:41.040Z,"100 km SSW of Lata, Solomon Islands",earthquake,8.5,1.7,0.107,26,reviewed,us,us
+2022-03-14T08:28:20.593Z,-10.9553,166.473,157.22,4.5,mb,,104,4.521,0.56,us,us6000h4dh,2022-04-22T14:31:26.040Z,"78 km ESE of Lata, Solomon Islands",earthquake,9.9,5.3,0.066,67,reviewed,us,us
+2022-03-12T21:47:22.299Z,-15.8943,168.3303,267.14,4.4,mb,,117,1.173,0.57,us,us6000h436,2022-03-20T03:44:02.040Z,"100 km ENE of Lakatoro, Vanuatu",earthquake,12.3,7.5,0.112,23,reviewed,us,us
+2022-03-11T16:16:56.280Z,-21.5897,170.5947,139.34,4.8,mb,,98,3.092,0.97,us,us6000h3ts,2022-04-02T15:36:06.040Z,"264 km SSE of Isangel, Vanuatu",earthquake,8.8,6.1,0.069,65,reviewed,us,us
+2022-03-10T17:31:06.082Z,-15.8909,167.5508,10,4.1,mb,,162,0.553,0.69,us,us6000h548,2022-04-06T16:51:39.040Z,"25 km NE of Norsup, Vanuatu",earthquake,7.2,1.9,0.213,6,reviewed,us,us
+2022-03-10T03:14:52.813Z,-10.1337,161.4843,87.47,4.5,mb,,106,1.664,0.78,us,us6000h53v,2022-03-18T02:01:55.040Z,"59 km NW of Kirakira, Solomon Islands",earthquake,11.1,8.2,0.163,11,reviewed,us,us
+2022-03-09T21:37:11.531Z,-10.4114,161.253,43.56,4.5,mb,,67,1.608,0.53,us,us6000h3ey,2022-03-19T01:58:29.040Z,"73 km W of Kirakira, Solomon Islands",earthquake,8.8,7,0.089,37,reviewed,us,us
+2022-03-08T22:24:57.475Z,-22.395,171.4561,91.18,4.2,mb,,184,3.714,0.46,us,us6000h3un,2022-04-18T01:30:40.040Z,southeast of the Loyalty Islands,earthquake,11.9,9.8,0.176,9,reviewed,us,us
+2022-03-06T22:13:50.717Z,-21.7241,173.137,10,4.4,mb,,111,5.348,0.91,us,us6000h3ln,2022-04-12T20:09:44.040Z,Vanuatu region,earthquake,9.2,1.8,0.189,8,reviewed,us,us
+2022-03-06T21:07:26.165Z,-18.9049,169.5635,269.77,4.3,mb,,76,4.112,0.74,us,us6000h3lm,2022-03-10T22:23:08.040Z,"76 km NNE of Isangel, Vanuatu",earthquake,8.8,8.1,0.133,16,reviewed,us,us
+2022-03-05T11:04:09.404Z,-10.2293,161.1202,62.9,4,mb,,104,1.397,0.39,us,us6000h3ja,2022-04-01T12:01:40.040Z,"91 km WNW of Kirakira, Solomon Islands",earthquake,8.4,7.7,0.156,12,reviewed,us,us
+2022-03-02T17:22:03.641Z,-17.8077,167.5175,10,4.4,mb,,99,2.366,0.51,us,us6000h2tn,2022-03-08T16:47:05.040Z,"84 km W of Port-Vila, Vanuatu",earthquake,7,1.8,0.179,10,reviewed,us,us
+2022-03-02T07:24:15.341Z,-23.3739,171.9019,10,5,mb,,103,4.174,0.7,us,us6000h1bx,2022-03-26T11:43:21.040Z,,earthquake,11,1.9,0.059,92,reviewed,us,us
+2022-02-27T21:19:12.071Z,-17.4713,168.6368,236.01,4.5,mb,,66,2.437,0.55,us,us6000h1ts,2022-03-08T02:04:52.040Z,"45 km NE of Port-Vila, Vanuatu",earthquake,10.8,6.4,0.144,14,reviewed,us,us
+2022-02-27T10:42:23.040Z,-15.1307,167.7549,119.76,4.6,mb,,115,0.618,0.36,us,us6000h1t4,2022-04-29T04:35:34.040Z,"74 km E of Port-Olry, Vanuatu",earthquake,12.2,5.9,0.114,23,reviewed,us,us
+2022-02-26T04:22:11.922Z,-20.5514,169.4199,65.22,5,mb,,44,4.81,0.89,us,us6000h0a8,2022-03-25T21:06:03.040Z,"112 km S of Isangel, Vanuatu",earthquake,9.8,3.7,0.055,111,reviewed,us,us
+2022-02-24T10:29:41.646Z,-14.9557,168.1057,10,4.6,mb,,72,0.998,0.32,us,us6000gzrw,2022-03-22T12:46:25.040Z,"111 km E of Port-Olry, Vanuatu",earthquake,6.7,1.9,0.082,46,reviewed,us,us
+2022-02-23T12:41:52.276Z,-14.8384,167.4094,117.45,4.4,mb,,74,0.637,0.7,us,us7000gn6e,2022-03-09T07:23:04.040Z,"42 km ENE of Port-Olry, Vanuatu",earthquake,11.2,7.1,0.135,16,reviewed,us,us
+2022-02-23T08:46:18.218Z,-14.8399,167.3738,117.33,4.7,mb,,80,0.625,0.75,us,us7000gn5d,2022-03-22T13:49:56.040Z,"39 km NE of Port-Olry, Vanuatu",earthquake,10,5.9,0.114,23,reviewed,us,us
+2022-02-23T00:11:26.449Z,-17.2331,168.4507,220.98,4.4,mb,,202,5.141,0.72,us,us6000h0ta,2022-03-04T04:12:44.040Z,"57 km NNE of Port-Vila, Vanuatu",earthquake,14.2,6.8,0.148,13,reviewed,us,us
+2022-02-22T19:32:14.508Z,-21.0711,168.4945,10,4.6,mb,,93,3.971,0.96,us,us6000h04r,2022-03-18T20:26:58.040Z,"82 km NE of Tadine, New Caledonia",earthquake,8.5,1.9,0.141,18,reviewed,us,us
+2022-02-22T05:29:21.767Z,-10.4669,161.8073,58.37,4.3,mb,,64,2.097,0.37,us,us6000h040,2022-03-06T10:32:50.040Z,"12 km W of Kirakira, Solomon Islands",earthquake,10.7,8.4,0.133,16,reviewed,us,us
+2022-02-21T05:04:05.978Z,-22.7215,168.7817,10,4.5,mb,,100,4.707,0.58,us,us6000h01i,2022-02-25T12:30:34.040Z,"132 km E of Vao, New Caledonia",earthquake,8.3,1.9,0.205,10,reviewed,us,us
+2022-02-20T10:05:55.769Z,-23.1308,171.3629,10,4.5,mb,,155,6.643,0.82,us,us6000gzsz,2022-03-12T09:33:14.040Z,southeast of the Loyalty Islands,earthquake,7.7,1.9,0.15,14,reviewed,us,us
+2022-02-20T08:32:31.433Z,-23.3663,171.0249,10,4.2,mb,,129,6.296,0.57,us,us6000gzsw,2022-03-13T11:40:21.040Z,southeast of the Loyalty Islands,earthquake,9.4,1.8,0.146,15,reviewed,us,us
+2022-02-19T19:10:40.200Z,-8.4964,159.1075,96.72,4.3,mb,,91,1.251,0.57,us,us6000gzk1,2022-03-06T00:08:53.040Z,"66 km SW of Buala, Solomon Islands",earthquake,13.5,9.2,0.125,18,reviewed,us,us
+2022-02-18T18:39:40.672Z,-11.1488,166.2226,60.98,4.5,mb,,83,4.377,0.76,us,us7000gn88,2022-04-30T14:18:27.040Z,"66 km SE of Lata, Solomon Islands",earthquake,8.8,6,0.128,18,reviewed,us,us
+2022-02-17T03:35:57.222Z,-11.2174,166.1147,35,4.5,mb,,120,4.335,0.51,us,us7000gmzj,2022-04-30T14:18:21.040Z,"64 km SSE of Lata, Solomon Islands",earthquake,13.5,2,0.163,11,reviewed,us,us
+2022-02-16T01:35:29.473Z,-18.693,168.8787,155.03,4.6,mb,,51,3.603,0.6,us,us7000gl6h,2022-04-30T14:18:17.040Z,"103 km NNW of Isangel, Vanuatu",earthquake,9.9,5.5,0.097,32,reviewed,us,us
+2022-02-15T23:31:04.556Z,-12.5473,166.4477,35,4.3,mb,,202,2.974,0.81,us,us7000gm0q,2022-04-30T14:18:17.040Z,"189 km NW of Sola, Vanuatu",earthquake,12.7,2,0.201,7,reviewed,us,us
+2022-02-14T22:51:19.396Z,-25.483,178.5548,579.58,4.4,mb,,96,4.897,0.61,us,us7000gkwx,2022-04-30T14:18:13.040Z,south of the Fiji Islands,earthquake,12.7,10.7,0.117,21,reviewed,us,us
+2022-02-14T13:28:03.200Z,-16.8805,178.998,10,4.2,mb,,118,1.246,0.78,us,us7000glz5,2022-04-30T14:18:12.040Z,"63 km SW of Labasa, Fiji",earthquake,7.6,1.9,0.305,4,reviewed,us,us
+2022-02-14T09:17:38.513Z,-10.5498,166.1487,174.22,4.1,mb,,113,4.975,0.66,us,us7000glyy,2022-04-30T14:18:11.040Z,"43 km ENE of Lata, Solomon Islands",earthquake,12.5,8.8,0.15,16,reviewed,us,us
+2022-02-14T00:57:41.754Z,-20.8444,173.5713,10,4.6,mb,,74,5.236,0.48,us,us7000glyh,2022-04-30T14:18:10.040Z,Vanuatu region,earthquake,6.9,2,0.172,10,reviewed,us,us
+2022-02-13T16:10:37.938Z,-21.4266,168.635,10,4.3,mb,,188,2.135,0.29,us,us7000glq6,2022-04-30T14:18:07.040Z,"79 km E of Tadine, New Caledonia",earthquake,5,1.9,0.169,11,reviewed,us,us
+2022-02-13T14:48:02.050Z,-21.0579,173.5367,10,5.4,mww,,106,5.387,0.68,us,us7000gkjc,2022-04-30T14:18:07.040Z,Vanuatu region,earthquake,4.5,1.8,0.059,28,reviewed,us,us
+2022-02-12T04:33:04.957Z,-9.8502,160.2303,33.54,5,mb,,41,0.494,0.76,us,us7000gk7u,2022-04-30T14:18:01.040Z,"55 km SSE of Honiara, Solomon Islands",earthquake,6.9,2.2,0.072,69,reviewed,us,us
+2022-02-11T23:47:45.455Z,-15.0457,168.1109,10,4.9,mb,,56,0.962,0.78,us,us7000gk5j,2022-04-19T17:40:13.040Z,"111 km E of Port-Olry, Vanuatu",earthquake,4.6,1.8,0.066,71,reviewed,us,us
+2022-02-11T14:09:35.896Z,-11.3264,163.5602,10,4.6,mb,,60,4.018,0.67,us,us7000gjzj,2022-04-19T17:39:55.040Z,"203 km ESE of Kirakira, Solomon Islands",earthquake,9.4,1.9,0.095,33,reviewed,us,us
+2022-02-11T09:25:43.362Z,-13.8575,167.7113,10,4.4,mb,,84,1.655,0.33,us,us7000gldm,2022-04-19T17:40:27.040Z,"17 km E of Sola, Vanuatu",earthquake,11.4,1.9,0.155,12,reviewed,us,us
+2022-02-10T21:13:08.447Z,-11.0004,162.7411,10,4.4,mb,,51,3.157,0.61,us,us7000gl3h,2022-04-19T17:40:25.040Z,"108 km SE of Kirakira, Solomon Islands",earthquake,5.1,1.9,0.126,18,reviewed,us,us
+2022-02-10T17:02:13.790Z,-12.4358,167.0943,226.41,4.1,mb,,151,2.995,0.63,us,us7000gl37,2022-04-19T17:40:23.040Z,"166 km NNW of Sola, Vanuatu",earthquake,11.4,6.2,0.112,22,reviewed,us,us
+2022-02-10T06:58:31.245Z,-15.0594,167.6764,121.24,4,mb,,150,0.597,0.44,us,us7000gl2y,2022-04-19T17:40:22.040Z,"64 km E of Port-Olry, Vanuatu",earthquake,6,6.9,0.144,15,reviewed,us,us
+2022-02-09T14:33:38.211Z,-22.6608,171.071,10,4.2,mb,,126,3.348,0.36,us,us7000gku1,2022-04-19T17:40:17.040Z,southeast of the Loyalty Islands,earthquake,9.5,1.9,0.215,6,reviewed,us,us
+2022-02-09T03:08:46.124Z,-16.074,167.1828,175.35,3.9,mb,,135,0.623,0.4,us,us7000gktd,2022-04-19T17:38:18.040Z,"22 km W of Norsup, Vanuatu",earthquake,11.5,11.4,0.149,12,reviewed,us,us
+2022-02-09T01:42:05.283Z,-19.4067,167.835,10,4.8,mb,,168,2.953,0.66,us,us7000gkta,2022-04-19T17:40:14.040Z,"152 km W of Isangel, Vanuatu",earthquake,4.6,1.9,0.16,12,reviewed,us,us
+2022-02-08T15:44:16.893Z,-13.847,174.7816,10,4.4,mb,,70,6.835,0.51,us,us7000gk2f,2022-04-19T17:40:09.040Z,Fiji region,earthquake,11.2,1.9,0.11,27,reviewed,us,us
+2022-02-08T13:04:53.843Z,-13.8407,174.5615,10,4.6,mb,,118,7.298,0.69,us,us7000gk20,2022-04-19T17:40:05.040Z,Fiji region,earthquake,9.4,1.9,0.183,13,reviewed,us,us
+2022-02-08T12:57:46.522Z,-13.743,174.5274,10,4.8,mb,,40,5.229,0.6,us,us7000gk2a,2022-04-19T17:40:07.040Z,Fiji region,earthquake,4.7,1.8,0.087,42,reviewed,us,us
+2022-02-07T21:43:58.846Z,-10.0082,161.628,86.11,4,mb,,170,1.75,0.82,us,us7000gk15,2022-04-19T17:40:01.040Z,"58 km NNW of Kirakira, Solomon Islands",earthquake,7.7,11.9,0.196,7,reviewed,us,us
+2022-02-07T08:45:36.358Z,-13.5,174.4075,10,5.3,mww,,71,5.49,0.32,us,us7000gisx,2022-04-19T17:38:57.040Z,Fiji region,earthquake,9.4,1.7,0.069,20,reviewed,us,us
+2022-02-07T07:10:24.966Z,-22.843,171.1424,10,4.4,mb,,116,3.419,0.43,us,us7000gk0d,2022-04-19T17:39:57.040Z,,earthquake,10.4,1.9,0.106,28,reviewed,us,us
+2022-02-07T06:58:23.729Z,-22.8462,171.2993,10,4.3,mb,,117,3.564,0.78,us,us7000gk0b,2022-04-19T17:39:57.040Z,southeast of the Loyalty Islands,earthquake,5.2,1.9,0.178,10,reviewed,us,us
+2022-02-05T22:20:24.158Z,-22.7419,171.8685,10,4.9,mb,,113,4.086,0.6,us,us7000gjpt,2022-04-19T17:39:36.040Z,southeast of the Loyalty Islands,earthquake,9.6,1.3,0.089,39,reviewed,us,us
+2022-02-05T10:01:52.572Z,-12.2154,167.0314,244.52,4.4,mb,,116,3.216,0.43,us,us7000gjp6,2022-04-19T17:39:33.040Z,"192 km NNW of Sola, Vanuatu",earthquake,13.9,7,0.098,32,reviewed,us,us
+2022-02-05T04:27:31.487Z,-10.7418,164.5779,10,4.7,mb,,133,4.739,0.43,us,us7000gjp4,2022-04-19T17:39:32.040Z,"133 km W of Lata, Solomon Islands",earthquake,6.1,1.9,0.226,8,reviewed,us,us
+2022-02-04T21:16:00.094Z,-18.2427,168.2087,21.56,4.7,mb,,75,2.942,0.28,us,us7000gjm0,2022-04-15T17:57:28.040Z,"57 km S of Port-Vila, Vanuatu",earthquake,7.3,5.7,0.118,22,reviewed,us,us
+2022-02-04T15:59:20.191Z,-18.2751,167.7623,10,4.9,mb,,76,2.862,0.87,us,us7000ghzj,2022-04-15T17:57:21.040Z,"83 km SW of Port-Vila, Vanuatu",earthquake,7.4,1.9,0.089,40,reviewed,us,us
+2022-02-03T22:47:41.480Z,-14.9485,168.336,10,4.7,mb,,52,1.2,1.27,us,us7000gjdy,2022-04-15T17:57:27.040Z,"136 km E of Port-Olry, Vanuatu",earthquake,7.1,1.9,0.098,32,reviewed,us,us
+2022-02-01T15:39:26.612Z,-22.9539,171.3794,10,4.6,mb,,117,3.645,0.62,us,us7000givl,2022-04-15T17:57:24.040Z,southeast of the Loyalty Islands,earthquake,7.3,1.9,0.173,13,reviewed,us,us
+2022-02-01T15:26:44.628Z,-23.244,171.2247,10,4.3,mb,,156,3.539,0.33,us,us7000giw4,2022-04-15T17:57:24.040Z,southeast of the Loyalty Islands,earthquake,7.3,2,0.376,2,reviewed,us,us
+2022-02-01T11:41:35.093Z,-23.1103,170.5092,10,4.7,mb,,79,2.867,0.57,us,us7000ggxc,2022-04-15T17:57:10.040Z,,earthquake,7.9,1.8,0.096,14,reviewed,us,us
+2022-01-31T19:47:20.746Z,-16.2127,168.3546,187.45,4.4,mb,,236,1.344,0.72,us,us7000gi0g,2022-04-15T17:57:22.040Z,"101 km E of Lakatoro, Vanuatu",earthquake,16,13.6,0.179,9,reviewed,us,us
+2022-01-30T08:03:19.680Z,-15.4728,167.5833,94.32,4.2,mb,,217,0.367,0.77,us,us7000ghyf,2022-04-15T17:57:20.040Z,"45 km E of Luganville, Vanuatu",earthquake,13.4,6.2,0.152,13,reviewed,us,us
+2022-01-30T08:00:22.334Z,-18.5511,170.7613,199.12,4.1,mb,,265,4.595,0.37,us,us7000ghye,2022-04-15T17:57:20.040Z,"190 km NE of Isangel, Vanuatu",earthquake,7.8,13.1,0.166,11,reviewed,us,us
+2022-01-28T19:59:22.421Z,-11.3687,166.8007,217.37,4.3,mb,,71,4.072,0.78,us,us7000ghnu,2022-04-09T20:19:16.040Z,"130 km ESE of Lata, Solomon Islands",earthquake,10.8,7.5,0.088,44,reviewed,us,us
+2022-01-28T13:51:51.928Z,-16.4218,173.5379,10,4.4,mb,,84,4.513,0.82,us,us7000ghnn,2022-04-09T20:19:15.040Z,Fiji region,earthquake,14.7,1.9,0.144,14,reviewed,us,us
+2022-01-28T09:29:01.456Z,-16.6408,173.7382,10,4.5,mb,,75,4.267,0.32,us,us7000ghng,2022-04-09T20:19:14.040Z,Fiji region,earthquake,9.1,1.9,0.151,13,reviewed,us,us
+2022-01-28T08:53:38.010Z,-16.5578,173.4551,10,4.5,mb,,90,4.551,0.94,us,us7000ghnf,2022-04-09T20:19:13.040Z,Fiji region,earthquake,12.8,1.9,0.157,14,reviewed,us,us
+2022-01-26T11:11:41.700Z,-19.2384,168.5609,57.45,4.9,mb,,79,3.446,0.77,us,us7000gf8i,2022-04-09T20:19:07.040Z,"82 km WNW of Isangel, Vanuatu",earthquake,8.2,7.3,0.083,46,reviewed,us,us
+2022-01-24T17:58:58.972Z,-11.6809,166.1795,73.25,4.5,mb,,147,3.873,1.18,us,us7000ggr7,2022-04-09T20:18:58.040Z,"113 km SSE of Lata, Solomon Islands",earthquake,7.9,8.1,0.151,13,reviewed,us,us
+2022-01-23T18:19:47.815Z,-18.436,176.3294,10,4.7,mb,,71,1.777,1.07,us,us7000ggni,2022-04-09T20:18:55.040Z,"134 km WSW of Nadi, Fiji",earthquake,5.9,1.8,0.092,36,reviewed,us,us
+2022-01-22T21:48:27.341Z,-18.9623,169.3975,240.84,5.1,mb,,28,4.065,0.67,us,us7000ge9z,2022-04-09T20:18:51.040Z,"65 km N of Isangel, Vanuatu",earthquake,7.7,4.3,0.047,150,reviewed,us,us
+2022-01-21T09:28:14.271Z,-15.9693,168.295,168.17,4.4,mb,,148,1.172,0.5,us,us7000gfw2,2022-04-01T17:40:37.040Z,"95 km E of Lakatoro, Vanuatu",earthquake,7.4,5.1,0.11,24,reviewed,us,us
+2022-01-20T15:47:09.565Z,-14.9736,167.8512,10,4.4,mb,,217,0.782,0.91,us,us7000gfut,2022-04-01T17:40:36.040Z,"84 km E of Port-Olry, Vanuatu",earthquake,7.4,1.9,0.203,9,reviewed,us,us
+2022-01-20T10:58:09.665Z,-14.988,167.9446,10,5.4,mww,,46,0.848,1.39,us,us7000gdi9,2022-04-01T17:40:21.040Z,"93 km E of Port-Olry, Vanuatu",earthquake,6.1,1.7,0.08,15,reviewed,us,us
+2022-01-19T21:38:53.217Z,-14.9355,167.4095,145.92,4.4,mb,,194,0.546,0.69,us,us7000gfl6,2022-04-01T17:40:35.040Z,"38 km ENE of Port-Olry, Vanuatu",earthquake,10.5,5.8,0.239,5,reviewed,us,us
+2022-01-19T17:45:10.799Z,-16.9282,168.2998,217.56,4.4,mb,,124,1.81,0.69,us,us7000gfl2,2022-04-01T17:40:35.040Z,"89 km N of Port-Vila, Vanuatu",earthquake,11.7,4.8,0.169,10,reviewed,us,us
+2022-01-19T05:14:04.483Z,-10.7406,166.4796,194.4,4.4,mb,,122,4.731,0.66,us,us7000gfke,2022-04-01T17:40:35.040Z,"74 km E of Lata, Solomon Islands",earthquake,8.8,5.8,0.162,14,reviewed,us,us
+2022-01-18T14:40:25.171Z,-11.3692,167.0713,262.25,4.2,mb,,104,4.055,0.65,us,us7000gfai,2022-04-01T17:40:34.040Z,"156 km ESE of Lata, Solomon Islands",earthquake,8.7,11.5,0.176,9,reviewed,us,us
+2022-01-17T19:51:36.826Z,-16.0084,167.9298,175.67,4.2,mb,,209,0.895,0.5,us,us7000gf1s,2022-04-01T17:40:32.040Z,"55 km E of Lakatoro, Vanuatu",earthquake,6.7,6.8,0.147,13,reviewed,us,us
+2022-01-17T01:03:46.014Z,-14.3814,167.2592,176.84,4.2,mb,,92,1.06,0.66,us,us7000gf02,2022-04-01T17:40:31.040Z,"64 km SSW of Sola, Vanuatu",earthquake,15.5,8.1,0.098,29,reviewed,us,us
+2022-01-16T05:17:58.947Z,-13.3101,167.1432,197.4,5.3,mww,,46,2.125,0.46,us,us7000gcdg,2022-04-01T17:40:12.040Z,"76 km NW of Sola, Vanuatu",earthquake,9.9,6.1,0.086,13,reviewed,us,us
+2022-01-15T14:37:11.315Z,-10.5573,161.2133,35,4.3,mb,,108,1.67,0.9,us,us7000geww,2022-04-01T17:40:29.040Z,"78 km W of Kirakira, Solomon Islands",earthquake,8.6,2,0.154,12,reviewed,us,us
+2022-01-14T08:21:27.672Z,-22.2582,170.4785,10,4.5,mb,,107,2.827,0.74,us,us7000gdxt,2022-03-19T22:08:01.040Z,"279 km ESE of Tadine, New Caledonia",earthquake,9.4,2,0.181,9,reviewed,us,us
+2022-01-14T01:28:44.660Z,-18.6356,176.3698,10,4.3,mb,,123,1.828,0.93,us,us7000gdxm,2022-03-19T22:08:00.040Z,"144 km SW of Nadi, Fiji",earthquake,8.4,1.9,0.267,6,reviewed,us,us
+2022-01-13T02:42:16.982Z,-11.4213,166.644,10,4.4,mb,,84,4.038,0.63,us,us7000gdvk,2022-03-19T22:07:55.040Z,"120 km SE of Lata, Solomon Islands",earthquake,13.8,1.9,0.22,6,reviewed,us,us
+2022-01-10T14:32:42.962Z,-14.8128,168.0575,10,4.6,mb,,119,1.038,0.9,us,us7000gd6y,2022-03-19T22:07:36.040Z,"108 km ENE of Port-Olry, Vanuatu",earthquake,4.2,1.9,0.165,11,reviewed,us,us
+2022-01-10T08:42:46.318Z,-12.63,166.8328,126.3,4.4,mb,,145,2.823,0.45,us,us7000gd6n,2022-03-19T22:07:35.040Z,"158 km NNW of Sola, Vanuatu",earthquake,12.7,8.7,0.139,15,reviewed,us,us
+2022-01-07T22:57:33.378Z,-20.4869,169.8026,128.7,4.3,mb,,189,3.047,0.55,us,us7000ga27,2022-03-12T22:19:16.040Z,"117 km SSE of Isangel, Vanuatu",earthquake,9.1,9.1,0.169,10,reviewed,us,us
+2022-01-06T17:56:35.075Z,-11.0696,166.4877,139.59,4.4,mb,,72,4.406,0.58,us,us7000gc1r,2022-03-12T22:19:23.040Z,"84 km ESE of Lata, Solomon Islands",earthquake,10.3,2.7,0.092,34,reviewed,us,us
+2022-01-06T02:48:36.008Z,-20.3159,168.8933,10,4.7,mb,,111,2.653,0.5,us,us7000gc18,2022-03-12T22:19:22.040Z,"94 km SSW of Isangel, Vanuatu",earthquake,5.5,1.9,0.142,15,reviewed,us,us
+2022-01-06T02:00:46.931Z,-20.3209,168.7935,10,4.6,mb,,85,2.603,0.79,us,us7000gc17,2022-03-12T22:19:22.040Z,"100 km SSW of Isangel, Vanuatu",earthquake,8,1.9,0.206,7,reviewed,us,us
+2022-01-05T19:42:35.932Z,-11.5589,166.4968,127.95,4.8,mww,,42,3.925,0.59,us,us7000g9bj,2022-03-12T22:19:10.040Z,"119 km SE of Lata, Solomon Islands",earthquake,9.1,4.9,0.098,10,reviewed,us,us
+2022-01-05T16:43:09.361Z,-18.9797,169.6122,267.22,5,mww,,40,4.143,0.79,us,us7000g9aj,2022-03-12T22:19:09.040Z,Vanuatu,earthquake,6.6,4.1,0.098,10,reviewed,us,us
+2022-01-05T11:46:20.751Z,-20.1713,168.814,10,5.2,mww,,55,2.743,0.76,us,us7000g97b,2022-03-12T22:19:09.040Z,"85 km SW of Isangel, Vanuatu",earthquake,3.9,1.8,0.098,10,reviewed,us,us
+2022-01-05T01:08:02.011Z,-17.88,168.3867,57.97,5,mww,,82,2.672,0.76,us,us7000g93v,2022-03-12T22:19:08.040Z,"17 km SSE of Port-Vila, Vanuatu",earthquake,8.4,5.1,0.089,12,reviewed,us,us
+2022-01-05T00:47:46.450Z,-20.2727,168.8428,34.07,4.1,mb,,139,2.667,0.87,us,us7000gbzc,2022-03-12T22:19:21.040Z,"93 km SSW of Isangel, Vanuatu",earthquake,6.5,6.5,0.145,13,reviewed,us,us
+2022-01-04T18:31:55.600Z,-20.4804,169.7151,117.71,5.8,mww,,38,2.993,0.84,us,us7000g8zf,2022-03-12T22:19:07.040Z,"113 km SSE of Isangel, Vanuatu",earthquake,4.5,3.6,0.049,40,reviewed,us,us
+2022-01-04T14:15:06.617Z,-16.0891,168.1964,185.3,4.3,mb,,145,1.149,0.62,us,us7000g8xm,2022-03-12T22:19:07.040Z,"83 km E of Lakatoro, Vanuatu",earthquake,9.8,5.4,0.137,17,reviewed,us,us
+2022-01-03T14:35:51.098Z,-15.014,166.8512,12.74,4.6,mb,,93,0.548,0.43,us,us7000gbl9,2022-03-12T22:19:19.040Z,"24 km W of Port-Olry, Vanuatu",earthquake,4.6,5.2,0.128,23,reviewed,us,us
+2022-01-03T07:57:59.462Z,-19.9693,168.3208,10,4.3,mb,,158,2.729,0.43,us,us7000gbkz,2022-03-12T22:19:19.040Z,"111 km WSW of Isangel, Vanuatu",earthquake,12.1,1.8,0.238,6,reviewed,us,us
+2022-01-03T07:49:00.735Z,-11.7633,167.3132,264.09,4.1,mb,,120,3.663,0.69,us,us7000gbkw,2022-03-12T22:19:18.040Z,"201 km SE of Lata, Solomon Islands",earthquake,11.4,9,0.13,18,reviewed,us,us
+2022-01-03T02:09:44.647Z,-13.1864,166.8148,104,6,mww,,33,2.278,1.18,us,us7000g8kq,2022-03-12T22:19:02.040Z,"110 km NW of Sola, Vanuatu",earthquake,8.9,1.8,0.053,34,reviewed,us,us
+2022-01-03T00:05:01.645Z,-14.8679,167.3603,104.47,4.3,mb,,208,0.595,0.88,us,us7000g8k5,2022-03-12T22:19:02.040Z,"36 km ENE of Port-Olry, Vanuatu",earthquake,13.8,6.9,0.116,21,reviewed,us,us
+2022-01-02T02:08:14.362Z,-10.1689,161.0132,10,4.4,mb,,81,1.276,1.04,us,us7000gbdl,2022-03-12T22:19:17.040Z,"104 km WNW of Kirakira, Solomon Islands",earthquake,6.6,1.8,0.155,15,reviewed,us,us

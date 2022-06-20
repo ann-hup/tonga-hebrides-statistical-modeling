@@ -1,0 +1,533 @@
+---
+title: "EPS102 Final Project - R Code"
+author: "Annika Huprikar"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+# Imported Tonga Dataset
+```{r}
+setwd("/Users/annikahuprikar/Desktop/Spring2022/EPS102/EPS102Final")
+TongaData <- read_csv("TongaQuakes2022.csv")
+```
+```{r}
+data2 = TongaData$time  
+TongaData$strTime <- format(as.POSIXct(data2), format = "%D %H:%M:%S")
+```
+
+# Extracting TimeStamp Relevant Parts in Separate Columns for Later Use
+```{r}
+monthsVec <- c()
+datesVec <- c()
+yearsVec <- c()
+hoursVec <- c()
+minsVec <- c()
+secsVec <- c()
+dailySec <- c()
+for (entry in 1 : nrow(TongaData)) {
+  strDatePart <- strsplit(TongaData$strTime[entry], " ")[[1]]
+  strDateSep <- strsplit(strDatePart[1], "/")[[1]]
+  monthsVec <- c(monthsVec, strDateSep[1])
+  datesVec <- c(datesVec, strDateSep[2])
+  yearsVec <- c(yearsVec, paste0("20", strDateSep[3]))
+  
+  strTimeSep <- strsplit(strDatePart[2], ":")[[1]]
+  if (strTimeSep[1] == "08") {
+    hourVal <- 8
+  } else if (strTimeSep[1] == "09") {
+    hourVal <- 9
+  } else {
+    hourVal <- strtoi(strTimeSep[1])
+  }
+  
+  if (strTimeSep[2] == "08") {
+    minVal <- 8
+  } else if (strTimeSep[2] == "09") {
+    minVal <- 9
+  } else {
+    minVal <- strtoi(strTimeSep[2])
+  }
+  
+  if (strTimeSep[3] == "08") {
+    secVal <- 8
+  } else if (strTimeSep[3] == "09") {
+    secVal <- 9
+  } else {
+    secVal <- strtoi(strTimeSep[3])
+  }
+  
+  dailySec <- c(dailySec, hourVal*60*60 + minVal*60 + secVal)
+}
+
+TongaData$Month <- strtoi(monthsVec)
+TongaData$Day <- strtoi(datesVec)
+TongaData$Year <- strtoi(yearsVec)
+
+c_9 <- c(72:73, 307:311, 532:543, 924:934)
+c_8 <- c(74:79, 312:321, 544:548, 935:939)
+
+TongaData$Day[c_9] = 9
+TongaData$Day[c_8] = 8
+
+TongaData$DailyS <- dailySec
+```
+
+```{r}
+JANTIME <- 31*24*60*60
+FEBTIME <- JANTIME + (28*24*60*60)
+MARTIME <- FEBTIME + JANTIME #JANTIME is same as MARTIME alone as a month
+DAYTIME <- 24*60*60
+HOURTIME <- 60*60
+
+BASETIMEVEC <- c(0, JANTIME, FEBTIME, MARTIME)
+```
+
+# Cumulative Time (s) in Dataframe for Time Series
+```{r}
+totalSVec <- c()
+for (entry in 1 : nrow(TongaData)) {
+  totalSec <- (BASETIMEVEC[TongaData$Month[entry]]) + 
+              ((TongaData$Day[entry] - 1)*(DAYTIME)) + TongaData$DailyS[entry]
+  
+  totalSVec <- c(totalSVec, totalSec)
+}
+
+TongaData$CumulativeS <- totalSVec
+```
+
+```{r}
+rev_TongaData <- apply(TongaData, 2, rev)
+rev_TongaData <- as.data.frame(rev_TongaData)
+```
+
+```{r}
+plot(TongaData$CumulativeS[900:976], TongaData$mag[900:976])
+```
+# Write Newly Processed Dataset
+```{r}
+write.csv(TongaData,"TongaDataFINAL.csv", row.names = FALSE)
+```
+
+# Repeat all of the above steps with the New Hebrides Dataset
+```{r}
+NewHeb <- read_csv("NewHebrides2022.csv")
+```
+
+```{r}
+data3 = NewHeb$time  
+NewHeb$strTime <- format(as.POSIXct(data3), format = "%D %H:%M:%S")
+```
+
+```{r}
+monthsVecNewHeb <- c()
+datesVecNewHeb <- c()
+yearsVecNewHeb <- c()
+hoursVecNewHeb <- c()
+minsVecNewHeb <- c()
+secsVecNewHeb <- c()
+dailySecNewHeb <- c()
+for (entry in 1 : nrow(NewHeb)) {
+  strDatePart <- strsplit(NewHeb$strTime[entry], " ")[[1]]
+  strDateSep <- strsplit(strDatePart[1], "/")[[1]]
+  monthsVecNewHeb <- c(monthsVecNewHeb, strDateSep[1])
+  
+  dayVal <- strDateSep[2]
+  if (strDateSep[2] == "08") {
+    dayVal <- 8
+  } else if(strDateSep[2] == "09") {
+    dayVal <- 9
+  }
+  datesVecNewHeb <- c(datesVecNewHeb, dayVal)
+  yearsVecNewHeb <- c(yearsVecNewHeb, paste0("20", strDateSep[3]))
+  
+  strTimeSep <- strsplit(strDatePart[2], ":")[[1]]
+  if (strTimeSep[1] == "08") {
+    hourVal <- 8
+  } else if (strTimeSep[1] == "09") {
+    hourVal <- 9
+  } else {
+    hourVal <- strtoi(strTimeSep[1])
+  }
+  
+  if (strTimeSep[2] == "08") {
+    minVal <- 8
+  } else if (strTimeSep[2] == "09") {
+    minVal <- 9
+  } else {
+    minVal <- strtoi(strTimeSep[2])
+  }
+  
+  if (strTimeSep[3] == "08") {
+    secVal <- 8
+  } else if (strTimeSep[3] == "09") {
+    secVal <- 9
+  } else {
+    secVal <- strtoi(strTimeSep[3])
+  }
+  
+  dailySecNewHeb <- c(dailySecNewHeb, hourVal*60*60 + minVal*60 + secVal)
+}
+
+NewHeb$Month <- strtoi(monthsVecNewHeb)
+NewHeb$Day <- strtoi(datesVecNewHeb)
+NewHeb$Year <- strtoi(yearsVecNewHeb)
+NewHeb$DailyS <- dailySecNewHeb
+```
+
+```{r}
+totalSVecNewHeb <- c()
+for (entry in 1 : nrow(NewHeb)) {
+  totalSec <- (BASETIMEVEC[NewHeb$Month[entry]]) + 
+              ((NewHeb$Day[entry] - 1)*(DAYTIME)) + NewHeb$DailyS[entry]
+  
+  totalSVecNewHeb <- c(totalSVecNewHeb, totalSec)
+}
+
+NewHeb$CumulativeS <- totalSVecNewHeb
+
+```
+
+```{r}
+write.csv(NewHeb,"NewHebridesDataFINAL.csv", row.names = FALSE)
+```
+
+# Earthquake System Plots - Magnitudes
+```{r}
+TongaData$latitude = abs(TongaData$latitude)
+TongaData$longitude = abs(TongaData$longitude)
+ggplot(TongaData, mapping = aes(x = longitude, y = latitude, color = mag)) +
+  geom_point() +
+  scale_color_gradientn(colors = rainbow(9)) +
+  labs(title = "Tonga Trench - Earthquake System",
+       subtitle = "Data ranging from 1/1/2022 - present",
+       x = "Longitude", y = "Latitude", caption = "EPS102 Final Project", 
+       color = "Magnitude") +
+  ylim(max(TongaData$latitude), min(TongaData$latitude))
+```
+
+```{r}
+NewHeb$latitude = abs(NewHeb$latitude)
+NewHeb$longitude = abs(NewHeb$longitude)
+ggplot(NewHeb, mapping = aes(x = longitude, y = latitude, color = mag)) +
+  geom_point() +
+  scale_color_gradientn(colors = rainbow(9)) +
+  labs(title = "New Hebrides Trench - Earthquake System",
+       subtitle = "Data ranging from 1/1/2022 - present",
+       x = "Longitude", y = "Latitude", caption = "EPS102 Final Project", 
+       color = "Magnitude") +
+  ylim(max(NewHeb$latitude), min(NewHeb$latitude))
+```
+
+```{r}
+ggplot(TongaData, aes(x=magError)) + 
+  geom_histogram(color="black", fill="white") +
+  labs(title = "Tonga: Distribution of Magnitude Standard Errors",
+       x = "Magnitude Standard Error", y = "Frequency",
+       caption = "EPS102 Final Project") +
+  theme_economist()
+```
+# Preparing for Demings Regression - Frequency Method 1
+```{r}
+TongaFreqMag <- data.frame(matrix(ncol = 4, nrow = 0))
+colnames(TongaFreqMag) <- c('elapsedms', 'freq', 'mag', 'magError')
+
+for (entry in 1 : nrow(TongaData) - 1) {
+  elapsedt = TongaData$CumulativeS[entry] - TongaData$CumulativeS[entry + 1]
+  calcfreq = 1 / elapsedt
+  newr <- data.frame(elapsedt, calcfreq, TongaData$mag[entry], TongaData$magError[entry]) 
+        names(newr) <- c('elapsedms', 'freq', 'mag', 'magError')
+        TongaFreqMag <- rbind(TongaFreqMag, newr)
+}
+```
+
+```{r}
+ggplot(TongaFreqMag, aes(x=elapsedms)) + 
+  geom_histogram(color="white", fill="black") +
+  labs(title = "Tonga: Distribution of Elapsed Time Between Earthquakes",
+       x = "Elapsed Time Between Earthquakes (s)", y = "Count",
+       caption = "EPS102 Final Project") +
+  theme_economist()
+```
+
+```{r}
+ggplot(TongaFreqMag, aes(x=freq)) + 
+  geom_histogram(color="white", fill="black", bins = 15) +
+  labs(title = "Tonga: Distribution of Frequency of Earthquakes",
+       x = "Frequency of Earthquakes (Hz)", y = "Count",
+       caption = "EPS102 Final Project") +
+  xlim(0.00, 0.01) +
+  ylim(0, 200) +
+  theme_economist()
+```
+# Demings Regression - Frequency Method 1
+```{r}
+library(deming)
+x_err <- abs(rnorm(nrow(TongaFreqMag))) # standard normal dist of ~N(0, 1)
+fit <- deming(mag ~ freq, data=TongaFreqMag, xstd=x_err, ystd=TongaFreqMag$magError)
+```
+
+```{r}
+ggplot(TongaFreqMag, aes(x = freq, y = mag)) +
+  geom_point() +
+  geom_abline(intercept = fit$coefficients[1], slope = fit$coefficients[2], color = "red") +
+  xlim(0.00, 0.01) +
+  labs(title = "Deming Regression: Tonga Magnitude vs. Frequency",
+       subtitle = "Using Frequency Approach of Elapsed Time Between Events",
+       x = "Frequency", y = "Magnitude", caption = "EPS102 Final Project") 
+```
+
+```{r}
+NewHebFreqMag <- data.frame(matrix(ncol = 4, nrow = 0))
+colnames(NewHebFreqMag) <- c('elapsedms', 'freq', 'mag', 'magError')
+
+for (entry in 1 : nrow(NewHeb) - 1) {
+  elapsedt = NewHeb$CumulativeS[entry] - NewHeb$CumulativeS[entry + 1]
+  calcfreq = 1 / elapsedt
+  newr <- data.frame(elapsedt, calcfreq, NewHeb$mag[entry], NewHeb$magError[entry]) 
+        names(newr) <- c('elapsedms', 'freq', 'mag', 'magError')
+        NewHebFreqMag <- rbind(NewHebFreqMag, newr)
+}
+```
+
+
+```{r}
+x_err_NewHeb <- abs(rnorm(nrow(NewHebFreqMag))) # standard normal dist of ~N(0, 1)
+fitNewHeb <- deming(mag ~ freq, data=NewHebFreqMag, xstd=x_err_NewHeb, ystd=NewHebFreqMag$magError)
+```
+
+```{r}
+ggplot(NewHebFreqMag, aes(x = freq, y = mag)) +
+  geom_point() +
+  geom_abline(intercept = fitNewHeb$coefficients[1], slope = fitNewHeb$coefficients[2], 
+              color = "green") +
+  xlim(0.0, 0.01) +
+  labs(title = "Deming Regression: New Hebrides Magnitude vs. Frequency",
+       subtitle = "Using Frequency Approach of Elapsed Time Between Events",
+       x = "Frequency", y = "Magnitude", caption = "EPS102 Final Project") 
+```
+
+
+# Preparing for Demings Regression - Frequency Method 2
+```{r}
+TongaFreqMag2 <- data.frame(matrix(ncol = 3, nrow = 0))
+colnames(TongaFreqMag2) <- c('freq', 'magAvg', 'magErrorAvg')
+curDate = 30
+curDateFreq = 0
+magSum = 0
+magErrSum = 0
+
+for (entry in 1 : nrow(TongaData)) {
+  if (TongaData$Day[entry] == curDate) {
+    curDateFreq = curDateFreq + 1
+    magSum = magSum + TongaData$mag[entry]
+    magErrSum = magErrSum + TongaData$magError[entry]
+  } else {
+    newr <- data.frame(curDateFreq, round(magSum / curDateFreq, 3), 
+                       round(magErrSum / curDateFreq, 3)) 
+    names(newr) <- c('freq', 'magAvg', 'magErrorAvg')
+    TongaFreqMag2 <- rbind(TongaFreqMag2, newr)
+        
+    curDate = TongaData$Day[entry]
+    curDateFreq = 1
+    magSum = TongaData$mag[entry]
+    magErrSum = TongaData$magError[entry]
+  }
+  
+  if (entry == nrow(TongaData)) {
+    newr <- data.frame(curDateFreq, round(magSum / curDateFreq, 3), 
+                       round(magErrSum / curDateFreq, 3)) 
+    names(newr) <- c('freq', 'magAvg', 'magErrorAvg')
+    TongaFreqMag2 <- rbind(TongaFreqMag2, newr)
+  }
+}
+```
+
+```{r}
+ggplot(TongaFreqMag2, aes(x=freq)) + 
+  geom_histogram(color="white", fill="black", bins = 15) +
+  labs(title = "Tonga: Distribution of Frequency of Earthquakes V2",
+       x = "Frequency of Earthquakes (Hz)", y = "Count",
+       caption = "EPS102 Final Project") +
+  theme_economist()
+```
+
+# Demings Regression - Frequency Method 2
+```{r}
+x_err3 <- abs(rnorm(nrow(TongaFreqMag2))) # standard normal dist of ~N(0, 1)
+fit3 <- deming(magAvg ~ freq, data=TongaFreqMag2, xstd=x_err3, ystd=TongaFreqMag2$magErrorAvg)
+```
+
+```{r}
+ggplot(TongaFreqMag2, aes(x = freq, y = magAvg)) +
+  geom_point() +
+  geom_abline(intercept = fit3$coefficients[1], slope = fit3$coefficients[2], color = "red") +
+  annotate("text", x = 30, y = 4.6, label = "Deming") +
+  geom_abline(intercept = 4.786, slope = 0.745, color = "blue") +
+  annotate("text", x = 2, y = 5.2, label = "OLS") +
+  labs(title = "Deming Regression: Tonga Magnitude vs. Frequency",
+       subtitle = "Using Frequency Approach of Number of Events Per Day",
+       x = "Frequency", y = "Magnitude", caption = "EPS102 Final Project")
+```
+
+```{r}
+NewHebFreqMag2 <- data.frame(matrix(ncol = 3, nrow = 0))
+colnames(NewHebFreqMag2) <- c('freq', 'magAvg', 'magErrorAvg')
+curDate = NewHeb$Day[entry]
+curDateFreq = 0
+magSum = 0
+magErrSum = 0
+
+for (entry in 1 : nrow(NewHeb)) {
+  if (NewHeb$Day[entry] == curDate) {
+    curDateFreq = curDateFreq + 1
+    magSum = magSum + NewHeb$mag[entry]
+    magErrSum = magErrSum + NewHeb$magError[entry]
+  } else {
+    newr <- data.frame(curDateFreq, round(magSum / curDateFreq, 3), 
+                       round(magErrSum / curDateFreq, 3)) 
+    names(newr) <- c('freq', 'magAvg', 'magErrorAvg')
+    NewHebFreqMag2 <- rbind(NewHebFreqMag2, newr)
+        
+    curDate = NewHeb$Day[entry]
+    curDateFreq = 1
+    magSum = NewHeb$mag[entry]
+    magErrSum = NewHeb$magError[entry]
+  }
+  
+  if (entry == nrow(NewHeb)) {
+    newr <- data.frame(curDateFreq, round(magSum / curDateFreq, 3), 
+                       round(magErrSum / curDateFreq, 3)) 
+    names(newr) <- c('freq', 'magAvg', 'magErrorAvg')
+    NewHebFreqMag2 <- rbind(NewHebFreqMag2, newr)
+  }
+}
+```
+
+```{r}
+ggplot(NewHebFreqMag2, aes(x=freq)) + 
+  geom_histogram(color="white", fill="black", bins = 15) +
+  labs(title = "New Hebrides: Distribution of Frequency of Earthquakes V2",
+       x = "Frequency of Earthquakes (Hz)", y = "Count",
+       caption = "EPS102 Final Project") +
+  theme_economist()
+```
+
+```{r}
+x_err4 <- abs(rnorm(nrow(NewHebFreqMag2))) # standard normal dist of ~N(0, 1)
+fit4 <- deming(magAvg ~ freq, data=NewHebFreqMag2, xstd=x_err4, ystd=NewHebFreqMag2$magErrorAvg)
+```
+
+```{r}
+ggplot(NewHebFreqMag2, aes(x = freq, y = magAvg)) +
+  geom_point() +
+  geom_abline(intercept = fit4$coefficients[1], slope = fit4$coefficients[2], color = "green") +
+  annotate("text", x = 13, y = 4.8, label = "Deming") +
+  geom_abline(intercept = -4.416, slope = 1.6, color = "blue") +
+  annotate("text", x = 6.3, y = 5, label = "OLS") +
+  labs(title = "Deming Regression: New Hebrides Magnitude vs. Frequency",
+       subtitle = "Using Frequency Approach of Number of Events Per Day",
+       x = "Frequency", y = "Magnitude", caption = "EPS102 Final Project") +
+  xlim(0, 15)
+```
+
+# Earthquake System Distribution - Depths, Error in Depths, Dmin
+```{r}
+ggplot(TongaData, mapping = aes(x = longitude, y = latitude, color = depth)) +
+  geom_point() +
+  scale_color_gradientn(colors = rainbow(9)) +
+  labs(title = "Tonga Trench - Depth of Earthquakes (Hypocenter)",
+       subtitle = "Data ranging from 1/1/2022 - present",
+       x = "Longitude", y = "Latitude", caption = "EPS102 Final Project", 
+       color = "Depth") +
+  ylim(max(TongaData$latitude), min(TongaData$latitude))
+```
+
+```{r}
+ggplot(NewHeb, mapping = aes(x = longitude, y = latitude, color = depth)) +
+  geom_point() +
+  scale_color_gradientn(colors = rainbow(9)) +
+  labs(title = "New Hebrides Trench - Depth of Earthquakes (Hypocenter)",
+       subtitle = "Data ranging from 1/1/2022 - present",
+       x = "Longitude", y = "Latitude", caption = "EPS102 Final Project", 
+       color = "Depth") +
+  ylim(max(NewHeb$latitude), min(NewHeb$latitude))
+```
+
+```{r}
+ggplot(TongaData, mapping = aes(x = longitude, y = latitude, color = depthError)) +
+  geom_point() +
+  scale_color_gradientn(colors = rainbow(9)) +
+  labs(title = "Tonga Trench - Error in Depth of Earthquakes (Hypocenter)",
+       subtitle = "Data ranging from 1/1/2022 - present",
+       x = "Longitude", y = "Latitude", caption = "EPS102 Final Project", 
+       color = "Error in Depth") +
+  ylim(max(TongaData$latitude), min(TongaData$latitude))
+```
+
+```{r}
+ggplot(NewHeb, mapping = aes(x = longitude, y = latitude, color = depthError)) +
+  geom_point() +
+  scale_color_gradientn(colors = rainbow(9)) +
+  labs(title = "New Hebrides Trench - Error in Depth of Earthquakes (Hypocenter)",
+       subtitle = "Data ranging from 1/1/2022 - present",
+       x = "Longitude", y = "Latitude", caption = "EPS102 Final Project", 
+       color = "Error in Depth") +
+  ylim(max(NewHeb$latitude), min(NewHeb$latitude))
+```
+
+```{r}
+ggplot(TongaData, mapping = aes(x = longitude, y = latitude, color = dmin)) +
+  geom_point() +
+  scale_color_gradientn(colors = rainbow(9)) +
+  labs(title = "Tonga Trench - Dmin",
+       subtitle = "Data ranging from 1/1/2022 - present",
+       x = "Longitude", y = "Latitude", caption = "EPS102 Final Project", 
+       color = "Dmin") +
+  ylim(max(TongaData$latitude), min(TongaData$latitude))
+```
+
+```{r}
+ggplot(NewHeb, mapping = aes(x = longitude, y = latitude, color = dmin)) +
+  geom_point() +
+  scale_color_gradientn(colors = rainbow(9)) +
+  labs(title = "New Hebrides Trench - Dmin",
+       subtitle = "Data ranging from 1/1/2022 - present",
+       x = "Longitude", y = "Latitude", caption = "EPS102 Final Project", 
+       color = "Dmin") +
+  ylim(max(NewHeb$latitude), min(NewHeb$latitude))
+```
+
+# Depth vs. Depth Error - Regression
+```{r}
+depth_error_lm1 <- lm(depthError ~ depth, TongaData)
+depth_error_lm2 <- lm(depthError ~ depth, NewHeb)
+```
+
+```{r}
+ggplot(TongaData, aes(x = depth, y = depthError)) +
+  geom_point() +
+  theme_economist() +
+  geom_abline(intercept = depth_error_lm1$coefficients[1], slope = depth_error_lm1$coefficients[2], color = "red") +
+  annotate("text", x = 240, y = 4.5, label = paste0("r = ", round(cor(TongaData$depth, TongaData$depthError), 2))) +
+  labs(title = "Depth Error vs. Depth of Tonga 2022 Earthquakes",
+       x = "Depth (km)", y = "Depth Error (km)",
+       caption = "EPS102 Final Project")
+```
+
+```{r}
+ggplot(NewHeb, aes(x = depth, y = depthError)) +
+  geom_point() +
+  theme_economist() +
+  geom_abline(intercept = depth_error_lm2$coefficients[1], slope = depth_error_lm2$coefficients[2], color = "red") +
+  annotate("text", x = 350, y = 9, label = paste0("r = ", round(cor(NewHeb$depth, NewHeb$depthError), 2))) +
+  labs(title = "Depth Error vs. Depth of New Hebrides 2022 Earthquakes",
+       x = "Depth (km)", y = "Depth Error (km)",
+       caption = "EPS102 Final Project")
+```
+
+# END OF CODE
