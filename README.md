@@ -10,3 +10,10 @@ Using USGS data on seismic activity, we examined a few main questions around thi
 **Are intensity of earthquake magnitudes correlated with time since last activity (theory being that more frequent earthquakes release tension), or daily frequency of earthquake activity? How about the relationship between magnitude and hypocenter origination?**
 
 As the statistical analysis was being conducted, other points of interest arose in the data and are explored later on in the study. **A paper detailing our hypothesis, assumptions, and rigorous statistical methods and results/interpretation are in the repository.**
+
+**Statistical Methods Include:**
+* Time Series Analysis, Smoothing, Autocorrelation
+* Hypothesis Testing, K-S Tests for Divergence of CDFs, T-Tests, Confidence Intervals
+* Regression Techniques, Deming Regression, MA/SMA Regression
+* Quantifying Uncertainty, Standard Error of Sampling Distributions
+* Visualization: Contour Plots, Histograms, Time Series
