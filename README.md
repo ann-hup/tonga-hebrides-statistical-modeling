@@ -9,4 +9,4 @@ Using USGS data on seismic activity, we examined a few main questions around thi
 
 **Are intensity of earthquake magnitudes correlated with time since last activity (theory being that more frequent earthquakes release tension), or daily frequency of earthquake activity? How about the relationship between magnitude and hypocenter origination?**
 
-As the statistical analysis was being conducted, other points of interest arose in the data and are explored later on in the study. A full, detailed report of our hypothesis, assumptions, and rigorous statistical methods and results/interpretation are in the repository.
+As the statistical analysis was being conducted, other points of interest arose in the data and are explored later on in the study. **A paper detailing our hypothesis, assumptions, and rigorous statistical methods and results/interpretation are in the repository.**
